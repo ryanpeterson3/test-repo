@@ -1,0 +1,597 @@
+@keyframes listingCardFadeIn {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
+}
+
+.listingCard {
+    display: flex;
+    flex-flow: column nowrap;
+    @include listingCardTypography();
+    width: 100%;
+    border: 2px solid $c-lepineBrown;
+    background: $c-white;
+    color: #9b9b9b;
+    user-select: none;
+    opacity: 1;
+
+    &.fadeIn {
+        animation: listingCardFadeIn 0.2s ease-in-out;
+    }
+
+    &:hover {
+        border: 2px solid $c-lepineBrownLight;
+    }
+
+    &__header {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 5px 10px 0 10px;
+        flex: 1;
+    }
+
+    &__title {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        column-gap: 25px;
+        width: 100%;
+        color: $c-lepineBrown;
+    }
+
+    &__favourite {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+    }
+
+    &__location {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        column-gap: 10px;
+    }
+
+    &__image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 10px;
+        height: 205px;
+
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: contain;
+            object-position: center;
+        }
+    }
+
+
+    &__utility {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 35px;
+        column-gap: 10px;
+        position: relative;
+    }
+
+    &__footer {
+        background: $c-lepineBrown;
+        color: $c-white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 10px;
+        height: 50px;
+        transition: background 0.25s;
+        cursor: pointer;
+    }
+}
+
+.featuredListings {
+    .listingCard {
+        @include breakpointDown($bp-tablet-lg) {
+            // width: 315px;
+            height: 380px;
+        }
+    }
+}
+
+.listingPopup {
+    background: $c-white;
+    width: 1350px;
+    height: 90vh;
+    max-height: 880px;
+
+    max-width: 85vw;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+
+    .favouriteBtn {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        z-index: 2;
+
+        @include breakpointDown($bp-tablet-md) {
+            top: 10px;
+            left: 10px;
+        }
+    }
+
+    &[data-page="edit"] {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        padding: 25px;
+        row-gap: 25px;
+        overflow-y: scroll;
+
+        &::-webkit-scrollbar-track {
+            background-color: transparent;
+            border-radius: 10px;
+        }
+    
+        &::-webkit-scrollbar {
+            width: 20px;
+            background-color: transparent;
+        }
+    
+        &::-webkit-scrollbar-thumb {
+            background-clip: padding-box;
+            background-color: $c-lepineDarkGrey2;
+            border: 5px solid transparent;
+            border-radius: 10px;
+        }
+
+        .listingPopup__toggle {
+            align-self: flex-start;
+        }
+    }
+
+    @include breakpointDown($bp-tablet-md) {
+        max-height: 90vh;
+        flex-flow: column nowrap;
+    }
+
+    @include breakpointDown($bp-mobile-lg) {
+        max-height: 95vh;
+        height: unset;
+        flex-flow: column nowrap;
+    }
+
+    &__edit {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        row-gap: 10px;
+        column-gap: 10px;
+        width: 100%;
+
+        &--field {
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: flex-start;
+            align-items: flex-start;
+            row-gap: 10px;
+            flex: 1 0 30%;
+            height: 70px;
+            max-width: 33%;
+
+            @include breakpointDown($bp-tablet-sm) {
+                flex: 1 0 48%;
+                max-width: 50%;
+            }
+
+            @include breakpointDown($bp-mobile-md) {
+                flex: 1 0 100%;
+                max-width: unset;
+            }
+
+            label {
+                height: 20px;
+            }
+
+            input, select {
+                width: 100%;
+                border: 2px solid #202020;
+                border-radius: 5px;
+                height: 50px;
+                padding: 0 10px;
+                box-sizing: border-box;
+            }
+        }
+    }
+
+    &__form {
+        &--container {
+            display: flex;
+            flex-flow: column nowrap;
+            column-gap: 50px;
+            padding: 50px;
+            width: 100%;
+            // transform: scale(0.9);
+
+            @include breakpointDown($bp-mobile-lg) {
+                padding: 25px;
+                // transform: scale(0.675);               
+            }                
+        }
+
+        &--content {
+            @include hubspotPopupForm();
+        }
+    }
+
+    &__pdf {
+        z-index: 2;
+
+        &--wrapper {
+            width: 100%;
+            height: 100px;
+            padding: 25px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            @include breakpointDown($bp-tablet-md) {
+                padding: 25px;
+                height: unset;
+             }
+        }
+    }
+
+    &__info {
+        flex: 0 0 400px;
+        height: 100%;
+        background: $c-lepineBrown;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+
+        &--listing {
+            li {
+                list-style-position: inside;
+            }
+        }
+
+        @include breakpointDown($bp-tablet-lg) {
+            flex: 0 0 300px;
+        }
+
+        @include breakpointDown($bp-mobile-lg) {
+            width: 100%;
+            flex: 0 0 200px;
+        }
+
+        &--attributes {
+            margin-top: 40px;
+            
+            li {
+                list-style-position: inside;
+            }
+        }
+
+        &--group {
+            @include breakpointDown($bp-mobile-lg) {
+                flex: 1 0 48%l
+            }
+        }
+
+        &--status {
+            display: flex;
+            flex-flow: column nowrap;
+            row-gap: 10px;
+            margin-top: auto;
+            width: 100%;
+            flex: 1;
+        }
+
+        &--select {
+            color:  #000;
+            padding: 15px 25px;
+            border-radius: 5px;
+
+            &:focus {
+                outline: none;
+            }
+        }
+
+        &--content {
+            h3 {
+                color: $c-white;
+                margin: 0;
+            }
+            
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: flex-start;
+            align-items: flex-start;
+            row-gap: 25px;
+            // height: 100%;
+            background: $c-lepineBrownLight;
+            padding: 25px;
+            color: $c-white;
+            flex: 1;
+
+            @include breakpointDown($bp-mobile-lg) {
+                flex-flow: row wrap;
+            }
+        }
+
+        &--location {
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: flex-start;
+            align-items: center;
+            column-gap: 10px;
+            margin: 10px 0;
+        }
+
+        &--leasingPhoneNumber {
+            margin-top: auto;
+        }
+
+        &--contact {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 60px;
+            background: $c-lepineBrown;
+
+            cursor: pointer;
+            
+            p {
+                @include setFont($f-futura);
+                text-transform: uppercase;
+                color: $c-white;
+                letter-spacing: 1.5px;
+            }
+        }
+
+        &--image {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 450px;
+
+            @include breakpointDown($bp-tablet-md) {
+                display: none;
+            }
+
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                object-position: center;
+            }
+        }
+    }
+
+    &__screen {
+        display: none;
+        flex: 1;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+
+        &[data-screen="floorplan"] {
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;    
+
+            @include breakpointDown($bp-mobile-lg) {
+                flex-flow: column nowrap;
+            }
+        }
+
+        &[data-screen="registrationForm"] {
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;    
+            overflow-y: scroll;
+
+            @include breakpointDown($bp-tablet-sm) {
+                align-items: flex-start;
+            }
+        }
+
+        &.active {
+            display: flex;
+        }
+    }
+
+    &__content {
+        flex: 1 1;
+        height: 100%;
+        width: 100%;
+        // overflow: hidden;
+
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        position: relative;
+
+        // @include breakpointDown($bp-tablet-md) {
+        //     width: 100%;
+        //     height: calc(100% - 350px);
+        // }
+
+        // @include breakpointDown($bp-tablet-md) {
+        //     justify-content: center;
+        // }
+    }
+
+    &__floorplan {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: calc(100% - 100px);
+        width: 100%;
+        // height: 100%;
+        // overflow: hidden;
+        padding: 25px;
+        flex: 1 1;
+
+        img {
+
+            @include breakpointUp($bp-mobile-lg) {
+                height: 100%;
+                width: 100%;
+                object-fit: contain;
+                object-position: center;
+                }
+        }
+    }
+
+    &__keyplan {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        width: 215px;
+        height: 156px;
+        align-self: flex-end;
+
+        @include breakpointDown($bp-tablet-md) {
+            display: none;
+        }
+    }
+
+    &__menu {
+        position: absolute;
+        top: 30px;
+        right: 30px;
+
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: flex-end;
+        row-gap: 10px;
+
+        width: 215px;
+
+        @include breakpointDown($bp-tablet-md) {
+            position: unset;
+            top: 10px;
+            right: 10px;
+        }
+    }
+
+    &__buttons {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: flex-end;
+        row-gap: 10px;
+        width: 100%;
+        max-width: 215px;
+
+        @include breakpointDown($bp-tablet-md) {
+            position: absolute;
+            top: 210px;
+            right: 15px;
+        }
+    }
+
+    &__btn {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        column-gap: 15px;
+        background: #1C87A1;
+        color: $c-white;
+        height: 60px;
+        width: 100%;
+        border-radius: 5px;
+        padding: 5px 15px;
+        @include listingCardTypography();
+    }
+
+    &__close {
+        height: 50px;
+        width: 50px;
+
+        cursor: pointer;
+
+        background: $c-lepineBrown;
+        border-radius: 50%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        @include breakpointDown($bp-tablet-md) {
+            top: 10px;
+            right: 10px;
+
+            height: 35px;
+            width: 35px;
+
+            position: absolute;
+        }
+
+        img {
+            height: 25px;
+            width: 25px;
+
+            @include breakpointDown($bp-tablet-md) {    
+                height: 15px;
+                width: 15px;
+            }
+        }
+    }
+
+}
+
+.leasingStatus {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin-left: auto;
+
+    background: transparent;
+    border: 2px solid gray;
+
+
+    &[data-status="Vacant"] {
+        background: #28a745;
+        border: 2px solid #28a745;
+    }
+
+    &[data-status="On Hold"] {
+        background: #ffc107;
+        border: 2px solid #ffc107;
+    }
+
+    &[data-status="Coming Soon"] {
+        background: #ffc107;
+        border: 2px solid #ffc107;
+    }
+
+    &[data-status="Lease Pending"] {
+        background: #ffc107;
+        border: 2px solid #ffc107;
+    }
+
+    &[data-status="Occupied"] {
+        background: #dc3545;
+        border: 2px solid #dc3545;
+    }
+}

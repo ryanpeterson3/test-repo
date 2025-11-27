@@ -1,0 +1,163 @@
+.stressTest {
+    padding: 30px;
+
+    &__container {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        row-gap: 15px;
+        column-gap: 30px;
+        padding: 30px;
+        border-radius: 10px;
+
+        @include breakpointDown($bp-tablet-lg) {
+            flex-flow: column nowrap;
+        }
+
+        @include breakpointDown($bp-mobile-md) {
+            background-position: top right;
+        }
+    }
+   
+    &__content {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: start;
+        column-gap: 30px;
+        row-gap: 15px;
+    }
+
+    &__image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1 0 45%;
+        max-width: calc(100% - 30px);
+
+        &--wrapper {
+            height: 760px;
+            width: 560px;
+            
+            @include breakpointDown($bp-tablet-lg) {
+                height: 300px;
+                width: 100%;    
+            }
+
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: contain;
+                object-position: center;
+            }
+        }
+    }
+
+    &__list {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        row-gap: 15px;
+        flex: 1 0 45%;
+
+        @include breakpointDown($bp-mobile-md) {
+            flex: 1 0 100%;
+        }
+
+        h3 {
+            margin: 0;
+        }
+
+        &--wrapper {
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: flex-start;
+            row-gap: 10px;
+        }
+
+        &--item {
+            display: flex;
+            flex-flow: row nowrap;
+            column-gap: 10px;
+        }
+    }
+
+    &__header {
+        flex: 1 0 100%;
+
+        &[data-screen="desktop"] {
+            display: block;
+
+            @include breakpointDown($bp-tablet-lg) {
+                display: none;
+            }
+        }
+
+        &[data-screen="mobile"] {
+            display: none;
+            text-align: center;
+
+            @include breakpointDown($bp-tablet-lg) {
+                display: block;
+            }
+        }
+    }
+
+    &__subtitle {
+        flex: 1 0 100%;
+        margin: 0;
+        color: #53575A;
+
+        &[data-screen="desktop"] {
+            display: block;
+
+            @include breakpointDown($bp-tablet-lg) {
+                display: none;
+            }
+        }
+
+        &[data-screen="mobile"] {
+            display: none;
+            text-align: center;
+
+            @include breakpointDown($bp-tablet-lg) {
+                display: block;
+            }
+        }
+    }
+
+    &__copy {
+        flex: 1 0 45%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        row-gap: 15px;
+
+        @include breakpointDown($bp-mobile-md) {
+            flex: 1 0 100%;
+        }
+    }
+
+    &__btn {
+        &[data-screen="desktop"] {
+            display: block;
+
+            @include breakpointDown($bp-tablet-lg) {
+                display: none;
+            }
+        }
+
+        &[data-screen="mobile"] {
+            display: none;
+
+            @include breakpointDown($bp-tablet-lg) {
+                display: block;
+            }
+        }
+    }
+}

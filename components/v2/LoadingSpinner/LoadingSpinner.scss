@@ -1,0 +1,26 @@
+@keyframes LoadingSpinner {
+    from {
+        transform: rotate(0deg);
+    } to {
+        transform: rotate(360deg);
+    }
+}
+
+.loadingSpinner {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin-top: 0;
+    height: 30px;
+    
+    p {
+        margin: 0;
+    }
+
+    img {
+        animation: LoadingSpinner 1s infinite;
+        margin-right: 10px;
+        height: 15px;
+        width: 15px;
+    }
+}

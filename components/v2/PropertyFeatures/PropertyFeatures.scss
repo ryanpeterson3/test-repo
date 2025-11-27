@@ -1,0 +1,261 @@
+.propertyFeaturesV2 {
+    position: relative;
+    background: #F3F3F1;
+
+    &__arrow {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        object-position: top left;
+        transform: scaleX(-1);
+    }
+
+
+    &__image {
+        overflow: hidden;
+
+        img {
+            user-select: none;
+        }
+
+        &[data-background="desktop"] {
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: 1;
+            height: 100%;
+            display: block;
+
+            @include breakpointDown($bp-tablet-sm) {
+                display: none;
+            }
+        }
+        &[data-background="mobile"] {
+            display: none;
+            width: 100%;
+            height: 340px;
+
+            @include breakpointDown($bp-mobile-sm) {
+                height: 175px;
+            }
+
+            img {
+                height: 100%;
+                width: 100%;
+                object-position: top right;
+                object-fit: contain;
+            }
+
+            @include breakpointDown($bp-tablet-sm) {
+                display: block;
+            }
+        }
+    }
+
+    &__header {
+        display: flex;
+        align-items: center;
+        flex: 1 1;
+
+        h2 {
+            margin: 0;
+        }
+
+        @include breakpointDown($bp-tablet-sm) {
+            order: 1;
+            flex: 1 0 45%;
+        }
+
+        @include breakpointDown($bp-mobile-lg) {
+            order: 1;
+            flex: 1 0 100%;
+        }
+    }
+
+    &__container {
+        display: flex;
+        flex-flow: column nowrap;
+        row-gap: 40px;
+        z-index: 2;
+        position: relative;
+    }
+
+    &__content {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        column-gap: 100px;
+        row-gap: 25px;
+
+        @include breakpointUp($bp-tablet-sm) {
+            margin-bottom: 25px
+        }
+
+        @include breakpointDown($bp-tablet-sm) {
+            flex-flow: row wrap;
+        }
+    }
+
+    &__copy {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: flex-end;
+        align-items: flex-end;
+        flex: 1 0 48%;
+        text-align: end;
+        row-gap: 25px;
+        
+        @include breakpointDown($bp-tablet-sm) {
+            text-align: start;
+            order: 3;
+            flex: 1 0 100%;
+        }
+
+        @include breakpointDown($bp-mobile-lg) {
+            order: 2;
+            flex: 1 0 100%;
+        }
+    }
+
+    &__btn {
+        display: flex;
+        align-items: center;
+
+        @include breakpointDown($bp-tablet-sm) {
+            order: 2;
+            flex: 1 0 45%;
+            justify-content: flex-end;
+        }
+
+        @include breakpointDown($bp-mobile-lg) {
+            order: 3;
+            flex: 1 0 100%;
+            justify-content: flex-start;
+        }
+    }
+
+    &__cards {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: auto;
+        column-gap: 35px;
+        row-gap: 35px;
+
+        @include contentPaddingBottom();
+
+        @include breakpointDown($bp-desktop-sm) {
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        @include breakpointDown($bp-tablet-lg) {
+            display: none;
+        }
+    }
+
+    &__swiper {
+        display: none;
+
+        @include breakpointDown($bp-tablet-lg) {
+            display: block;
+        }
+    }
+
+    &Card {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        box-shadow: $box-shadow;
+        border-bottom: $border-gold;
+        background: $c-white;
+        
+        @include breakpointDown($bp-tablet-lg) {
+            width: 300px;
+        }
+
+        &__header {
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: flex-start;
+            align-items: center;
+            column-gap: 25px;
+            flex: 1;
+            height: 100px;
+            box-shadow: $box-shadow;
+            padding: 15px 15px 15px 45px;
+
+            background: $c-white;
+            
+            position: absolute;
+            top: -50px;
+            left: -10px;
+            z-index: 10;
+            width: 100%;
+            width: calc(100% - 10px);
+
+            @include breakpointDown($bp-tablet-lg) {
+                height: 75px;
+                top: -40px;
+                padding: 15px 15px 15px 30px;
+            }
+    
+
+            h3 {
+                margin: 0;
+                user-select: none;
+            }
+        }
+
+        &__content {
+            padding: 75px 35px 35px 35px;
+            position: relative;
+            width: 100%;
+            height: 360px;
+
+            p {
+                user-select: none;
+            }
+
+            @include breakpointDown($bp-tablet-lg) {
+                padding: 50px 25px 25px 25px;
+            }
+        }
+
+        &__icon {
+            height: 70px;
+            width: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            svg {
+                height: 60px;
+                width: 60px;
+                object-fit: contain;
+                object-position: center;
+
+            }
+        }
+
+        &__image {
+            height: 300px;
+            width: 100%;
+
+            @include breakpointDown($bp-tablet-lg) {
+                height: 200px;
+            }
+
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                object-position: center;
+            }
+        }
+    }
+}

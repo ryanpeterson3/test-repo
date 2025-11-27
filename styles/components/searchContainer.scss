@@ -1,0 +1,128 @@
+.searchContainer {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: -165px;
+    position: relative;
+    text-align: center;
+    background: #F3F3F1;
+
+    @include breakpointDown($bp-desktop-lg) {
+        padding-top: 60px;
+        margin-top: -165px;
+    }
+
+    @include breakpointDown($bp-mobile-lg) {
+        margin-top: -165px;
+    }
+
+    @include breakpointDown($bp-mobile-md) {
+        margin-top: 0;
+    }
+
+    &__wrapper {
+        display: flex;
+        flex-flow: column nowrap;
+        width: 100%;
+    }
+
+    &__title {
+        margin-bottom: 20px;
+        position: relative;
+        z-index: 3;
+
+        @include breakpointDown($bp-tablet-md) {
+            
+        }
+    }
+
+    &__content {
+        display: flex;
+        flex-flow: row nowrap;
+        width: 946px;
+        z-index: 3;
+        box-shadow: $box-shadow;
+
+        
+        @include breakpointDown($bp-tablet-md) {
+            flex-flow: column nowrap;
+            width: 80vw;
+        }
+    }
+
+    &__select {
+        display: flex;
+        flex-flow: row nowrap;
+        flex: 1 1 23%;
+
+        @include breakpointDown($bp-tablet-md) {
+            flex: unset;
+            width: 100%;
+        }
+
+        &--wrapper {
+            display: flex;
+            flex-flow: row wrap;
+            column-gap: 25px;
+            row-gap: 25px;
+        }
+
+        select {
+            background: $c-lepineLightGrey1;
+            color: $c-lepineDarkGrey1;
+            padding: 0 15px 0 25px;
+            width: 100%;
+            height: 60px;
+            cursor: pointer;
+        }
+
+        &--container {
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;
+            flex: 1;
+            column-gap: 30px;
+            row-gap: 15px;
+            padding: 25px;
+            background: $c-white;
+         
+            @include breakpointDown($bp-tablet-md) {
+                flex-flow: column nowrap;
+            
+            }
+        }
+    }
+
+    &__btn {
+        background: $c-lepineBrown;
+        font-family: $f-futura;
+        width: 196px;
+        text-transform: uppercase;
+        color: $c-white;
+        text-decoration: underline;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        transition: background 0.25s;
+
+        &:hover {
+            background: darken($c-lepineBrown, 5%);
+            transition: background 0.25s;
+        }
+
+        @include breakpointDown($bp-tablet-md) {
+            width: 100%;
+            padding: 15px;
+        }
+
+        p {
+            text-transform: uppercase;
+            text-decoration: underline;
+            color: $c-white;
+        }
+    }
+}

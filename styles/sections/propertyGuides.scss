@@ -1,0 +1,146 @@
+.propertyGuides {
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+    &__container {
+        margin: auto;
+        max-width: $bp-desktop-md;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    &[data-screen="desktop"] {
+        display: flex;
+
+        @include breakpointDown($bp-tablet-sm) {
+            display: none;
+        }
+    }
+
+    &[data-screen="mobile"] {
+        display: none;
+
+        @include breakpointDown($bp-tablet-sm) {
+            display: flex;
+        }
+    }
+}
+
+.guideCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-position: center;
+    background-size: cover;
+    height: 870px;
+    flex: 1 0 48%;
+
+    overflow: hidden;
+    
+
+    @include breakpointDown($bp-desktop-sm) {
+        height: 600px;
+    }
+
+
+    @include breakpointDown($bp-tablet-lg) {
+        height: 500px;
+    }
+
+    @include breakpointDown($bp-tablet-sm) {
+        flex: unset;
+        width: 535px;
+    }
+
+    @include breakpointDown($bp-mobile-lg) {
+        height: 500px;
+    }
+
+    @include breakpointDown($bp-mobile-md) {
+        flex: unset;
+        width: 450px;
+    }
+
+    @include breakpointDown($bp-mobile-sm) {
+        width: 350px;
+        height: 400px;
+    }
+
+    &__content {
+        text-align: center;
+        height: 100%;
+
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+
+        @include breakpointDown($bp-tablet-md) {
+            width: 100%;
+        }
+
+        &--wrapper {
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            padding: 120px;
+    
+            @include breakpointDown($bp-desktop-sm) {
+                padding: 50px;
+            }
+
+            @include breakpointDown($bp-tablet-lg) {
+                padding: 25px;
+            }
+    
+            @include breakpointUp($bp-mobile-lg) {
+                background: none !important;
+            }
+    
+            @include breakpointDown($bp-mobile-lg) {
+
+                &:nth-of-type(2) {
+                    height: 150px;
+                    justify-content: flex-start;
+                }
+            }
+    
+            @include breakpointDown($bp-mobile-lg) {
+                padding: 15px;
+            }
+    
+            h2 {
+                @include propertyGuideTypography();
+                color: $c-white;
+                margin: 0;
+
+                @include breakpointDown($bp-tablet-md) {
+                    font-size: 30px;
+                    line-height: 36px;
+                }
+
+                @include breakpointDown($bp-mobile-lg) {
+                    font-size: 18px;
+                    line-height: 24px;
+                }
+            }
+    
+            h3 {
+                color: $c-white;    
+                @include propertyGuideTypography();
+
+                @include breakpointDown($bp-mobile-lg) {
+                    font-size: 18px;
+                    line-height: 24px;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+
+
+}

@@ -1,0 +1,37 @@
+.overview {
+    background: #F3F3F1;
+
+    &__content {
+        text-align: center;
+    }
+
+    &__title {
+        @include breakpointDown($bp-mobile-lg) {
+            display: none;
+        }
+    }
+
+    &__cards {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        row-gap: 50px;
+
+        @include breakpointDown($bp-tablet-lg) {
+            row-gap: 30px;
+            column-gap: 30px;
+        }
+
+        @include breakpointDown($bp-tablet-sm) {
+            display: none;
+        }
+    }
+
+    &__swiper {
+        display: none;
+
+        @include breakpointDown($bp-tablet-sm) {
+            display: block;
+        }
+    }
+}

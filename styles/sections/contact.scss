@@ -1,0 +1,176 @@
+.contact {
+    background: $c-lepineBrownLight;
+    color: $c-white;
+
+     h2 {
+        margin-bottom: 10px;
+        }
+
+    .contentWrapper {
+        position: relative;
+
+        .contact__mobile--bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            display: none;
+
+            @include breakpointDown($bp-tablet-md) {
+                display: block;
+            }
+        }
+    }
+
+    &__row {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        width: 100%;
+
+        &[data-row="info"] {
+            @include breakpointDown($bp-tablet-md) {
+                z-index: 2;
+                position: relative;
+            }
+        }
+
+
+        @include breakpointDown($bp-tablet-md) {
+            flex-flow: column nowrap;
+        }
+    }
+
+    &__col {
+        flex: 1 0 30%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        max-height: 500px;
+        color: $c-white;
+
+        &[data-col="cta"] {
+            background: $c-white;
+            color: $c-lepineBrown;
+            padding: 60px;
+        }
+
+        &[data-col="info"] {
+            padding: 60px;
+            height: 300px;
+
+            @include breakpointDown(1366px) {
+                padding: 35px;
+            }
+
+            h3, p {
+                color: $c-white;
+            }
+        }
+
+        &[data-col="img"] {
+            @include breakpointDown($bp-tablet-md) {
+                display: none;
+            }
+        }
+
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+
+    &__info {
+        &--header {
+            text-transform: uppercase;
+            margin-bottom: 40px;
+            letter-spacing: 3px;
+            font-family: 'Futura LT Medium', sans-serif;
+            @include breakpointDown(1366px) {
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+
+.propertyContact {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+
+    &__submitted {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    &__form {
+        @include breakpointUp($bp-tablet-md) {
+            max-width: 562px;
+        }
+
+        @include hubspotForm();
+    }
+
+
+    &__image {
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        flex: 1 0 48%;
+        min-height: 837px;
+
+        @include breakpointDown($bp-tablet-sm) {
+            display: none;
+        }
+
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            object-position: center;
+            user-select: none;
+        }
+     }
+
+     &__header {
+        margin: 0;
+     }
+
+    &__content {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex: 1 0 48%;
+        row-gap: 25px;
+        padding: 60px 100px;
+
+        @include breakpointDown($bp-tablet-md) {
+            padding: 45px 35px;
+        }
+
+        &--wrapper {
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: flex-start;
+            row-gap: 25px;
+            max-width: 562px;
+
+    
+        }
+    }
+
+    &__subtitle {
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        font-family: 'Futura LT Medium', sans-serif;
+    }
+}

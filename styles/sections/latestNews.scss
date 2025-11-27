@@ -1,0 +1,114 @@
+.latestNews {
+    display: flex;
+    flex-flow: column nowrap;
+    overflow-x: hidden;
+    position: relative;
+
+    @include breakpointDown($bp-mobile-lg) {
+        display: none;
+    }
+
+    .swiper__prev--wrapper {
+        position: absolute;
+        top: 0;
+        left: 10px;
+        height: 90%;
+        z-index: 10;
+
+        display: flex;
+        align-items: center;
+    }
+    .swiper__next--wrapper {
+        position: absolute;
+        top: 0;
+        right: 10px;
+        height: 90%;
+        z-index: 10;
+
+        display: flex;
+        align-items: center;
+        font-family: 'Arial', sans-serif;
+    }
+
+    &__header {
+        margin: 0;
+        flex: 1 0 40%;
+        text-align: start;
+
+        h2 {
+            @include breakpointUp($bp-tablet-md) {
+                margin: 0;
+            }
+        }
+    }
+    
+    &__content {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 25px;
+        position: relative;
+
+        @include breakpointDown($bp-tablet-md) {
+            flex-flow: column nowrap;
+        }
+
+        @include breakpointDown($bp-mobile-lg) {
+            justify-content: flex-start;
+        }
+    }
+
+    &__copy {
+        display: flex;
+        flex-flow: column nowrap;
+        row-gap: 10px;
+        text-align: end;
+
+        @include breakpointDown($bp-tablet-md) {
+            text-align: start;
+        }
+    }
+
+    &__swiper {
+        overflow-x: hidden;
+        position: relative;
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            right: 0;
+            height: 100%;
+            width: 10%;
+            background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.5) 50%, rgba(255,255,255,1) 100%);
+            z-index: 2;
+        }
+
+        &--controls {
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: flex-end;
+            align-items: center;
+            column-gap: 10px;
+            height: 100%;
+            
+            p {
+                text-align: end;
+            }
+        }
+    }
+
+    &__btn {
+        display: flex;
+        justify-content: center;
+        margin-top: 25px;
+    }
+}
+
+.container[data-page="careers"],
+.container[data-page="homeV2"] {
+    .latestNews__content {
+        justify-content: flex-start;
+    }
+}

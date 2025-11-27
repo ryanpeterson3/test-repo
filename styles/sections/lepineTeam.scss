@@ -1,0 +1,19 @@
+.lepineTeam {
+    display: flex;
+    flex-flow: column nowrap;
+    background: url('../../assets/images/img-thelepineteam-1920.jpg');
+    background-position: top left;
+    background-size: contain;
+    background-repeat: no-repeat;    
+
+    @include breakpointDown($bp-desktop-md) {
+        background: url('../../assets/images/img-thelepineteam-1024.jpg');
+        background-position: top left;
+        background-size: cover;
+        background-repeat: no-repeat;    
+    }
+
+    @include breakpointDown($bp-mobile-lg) {
+        display: none;
+    }
+}

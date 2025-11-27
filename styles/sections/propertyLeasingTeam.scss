@@ -1,0 +1,72 @@
+.propertyLeasingTeam {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.leasingSteps {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    width: 100%;
+
+    .contentWrapper {
+        margin: 0;
+    }
+
+    @include breakpointDown($bp-tablet-md) {
+        flex-flow: column nowrap;
+    }
+
+    &__item {
+        display: flex;
+        flex-flow: column nowrap;
+        // justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex: 1;
+        width: 100%;
+        padding: 0 65px;
+
+        &--wrapper {
+            padding: 40px 0;
+
+            @include breakpointUp($bp-tablet-md) {                
+                max-width: 365px;
+            }
+            
+            h3, p {
+                color: $c-white;
+            }
+        }
+
+        &:nth-of-type(1) {
+            background: rgba(94, 81, 77, 0.90);
+
+            @include breakpointUp($bp-tablet-md) {
+                .leasingSteps__item--wrapper {
+                    align-self: flex-end;
+                }
+            }
+        }
+
+        &:nth-of-type(2) {
+            background: $c-lepineBrownLight;
+            
+            @include breakpointUp($bp-tablet-md) {
+                max-width: 515px;
+            }
+        }
+
+        &:nth-of-type(3) {
+            background: #5E514D;
+
+            @include breakpointUp($bp-tablet-md) {
+                .leasingSteps__item--wrapper {
+                    align-self: flex-start;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,101 @@
+.featureCard {
+    display: flex;
+    flex-flow: row nowrap;
+    background: $c-white;
+
+    max-width: 762px;
+    flex: 1 0 48%;
+    height: 480px;
+    border-bottom: $border-gold;
+
+    @include breakpointDown($bp-tablet-lg) {
+        flex-flow: column-reverse nowrap;
+        height: auto;
+    }
+
+    @include breakpointDown($bp-tablet-sm) {
+        width: 400px;
+    }
+
+    @include breakpointDown($bp-mobile-md) {
+        width: 321px;
+    }
+
+    &__icon {
+        height: 100px;
+        width: 100px;
+
+        img {
+            object-fit: cover;
+            object-position: left;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    &__header {
+        margin: 0;
+    }
+
+    &__image {
+        flex: 1 0 48%;
+        height: 100%;
+
+        &[data-image="desktop"] {
+            display: block;
+            @include breakpointDown($bp-tablet-lg) {
+                display: none;
+            }
+        }
+
+        &[data-image="mobile"] {
+            display: none;
+            @include breakpointDown($bp-tablet-lg) {
+                display: block;
+            }
+        }
+
+        @include breakpointDown($bp-tablet-lg) {
+            flex: unset;
+            height: 300px;
+        }
+
+        @include breakpointDown($bp-tablet-sm) {
+            height: 215px;
+        }
+
+        @include mobileCardImageHeight();
+
+        img {
+            object-fit: cover;
+            object-position: center;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    &__content {
+        flex: 1 0 48%;
+        box-sizing: border-box;
+        padding: 25px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: flex-start;
+        row-gap: 25px;
+
+        @include breakpointDown($bp-tablet-lg) {
+            justify-content: flex-start;
+        }
+
+        @include breakpointDown($bp-tablet-sm) {
+            flex: unset;
+            height: 475px;
+        }
+
+        @include breakpointDown($bp-mobile-lg) {
+            height: 385px;
+            row-gap: 15px;
+        }
+    }
+}

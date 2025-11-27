@@ -1,0 +1,19 @@
+.testimonialsV3 {
+    background: #F3F3F1;
+    max-height: 1000px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 25px;
+
+    &__swiper {  
+        height: 100%;
+        width: 100%;
+
+        .swiper-slide {
+            height: 100%;
+            width: 100%;
+        }
+    }
+}

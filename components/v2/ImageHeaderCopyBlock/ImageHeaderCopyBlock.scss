@@ -1,0 +1,99 @@
+.imageHeaderCopyBlock {
+    box-shadow: $box-shadow;
+    border-radius: 25px;
+    background: $c-white;
+
+
+    &[type="a"] {
+        display: flex;
+        flex-flow: row nowrap;
+
+        @include breakpointDown($bp-mobile-lg) {
+            flex-flow: column nowrap;
+        }
+
+        .imageHeaderCopyBlock__image {
+            flex: 1 0 48%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            @include breakpointDown($bp-mobile-lg) {
+                height: 350px;
+                flex: unset;
+            }
+
+            @include breakpointDown($bp-mobile-sm) {
+                height: 200px;
+            }
+            
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                object-position: center;
+                border-radius: 25px 0 0 25px;
+
+                @include breakpointDown($bp-mobile-lg) {
+                    border-radius: 25px 25px 0 0;
+                    object-position: top center;
+                }
+            }
+        }
+
+        .imageHeaderCopyBlock__content {
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: flex-start;
+            align-items: flex-start;
+            flex: 1 0 48%;
+            border-radius: 0 0 25px 0;
+
+        }
+
+        .imageHeaderCopyBlock__header {
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: flex-start;
+            align-items: flex-start;
+            text-align: flex-start;
+            background: #1c87a1;
+            color: $c-white;
+            width: 100%;
+            padding: 50px;
+            border-radius: 0 25px 0 0;
+
+            @include breakpointDown($bp-tablet-md) {
+                padding: 25px;
+            }
+
+            @include breakpointDown($bp-mobile-lg) {
+                border-radius: 0;
+            }
+
+            h2 {
+                color: $c-white;
+            }
+
+        }
+
+        .imageHeaderCopyBlock__copy {
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: flex-start;
+            align-items: flex-start;
+            row-gap: 25px;
+            padding: 50px;
+            width: 100%;
+            
+            h2 {
+                text-transform: unset;
+                letter-spacing: unset;
+            }
+
+            @include breakpointDown($bp-tablet-md) {
+                padding: 25px;
+            }
+        }
+    }
+}

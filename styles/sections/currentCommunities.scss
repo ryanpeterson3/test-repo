@@ -1,0 +1,230 @@
+.currentCommunities {
+    overflow: hidden;
+    
+    &__content {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        column-gap: 75px;
+        row-gap: 30px;
+
+        @include breakpointDown($bp-tablet-lg) {
+            align-items: flex-start;
+            flex-flow: column nowrap;
+        }
+    }
+    
+    &__marker {
+        height: 225px;
+        width: 250px;
+        background: $c-lepineBrown;
+
+        display: flex;
+        flex-flow: column nowrap;
+
+        @include breakpointDown(1400px) {
+            height: 150px;
+            width: 150px;
+        }
+        
+        @include breakpointDown($bp-tablet-sm) {
+            display: none;
+        }
+
+        &--image {
+            height: 175px;
+            width: 250px;
+
+            @include breakpointDown(1400px) {
+                height: 125px;
+                width: 150px;    
+            }
+
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                object-position: center;
+            }
+        }
+
+        &--link {
+            height: 50px;
+            width: 250px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            @include breakpointDown(1400px) {
+                width: 150px;    
+            }
+
+            a {
+                user-select: none;
+                outline: none;
+            }
+
+            p {
+                margin: 0;
+                font-family: 'Futura LT Medium', sans-serif;
+                letter-spacing: 3px;
+                color: $c-white;
+                text-transform: uppercase;
+                font-size: 16px;
+                outline: none;
+
+                @include breakpointDown(1400px) {
+                    font-size: 75%;    
+                }
+            }
+        }
+    }
+
+    &__header {
+        width: min-content;
+        max-width: 400px;
+        margin: 0;
+
+        @include breakpointDown($bp-tablet-lg) {
+            width: unset;
+            max-width: unset;
+        }
+    }
+
+    &__copy {
+        flex: 1 1;
+
+        @include breakpointUp($bp-tablet-lg) {
+            &.copyPadding {
+                padding-bottom: 0;
+            }
+        }
+    }
+
+    &__map {
+        &--wrapper {
+            background: $c-lepineLightGrey2;
+            position: relative;
+            height: 800px !important;
+    
+            @include breakpointDown(1400px) {
+                height: 550px !important;
+            }
+
+            .map {
+                position: absolute;
+                top: 0;
+                left: 0;
+        
+                height: 800px !important;
+                width: 100%;
+                z-index: 1;
+
+                @include resetInfoWindow();
+                @include infoWindowRemoveClose();
+                @include infoWindowArrow($c-lepineBrown);
+
+                @include breakpointDown(1400px) {
+                    height: 550px !important;
+                    @include infoWindowArrow(transparent);
+                }
+        
+            }
+
+            .map__overlay {
+                position: absolute;
+                top: 0;
+                right: 0;
+        
+                height: 100%;
+                width: 35%;
+                z-index: 2;
+                background: linear-gradient(90deg, rgba(178,172,170,0) 0%, rgba(178,172,170,0.8) 40%);
+            }
+        }
+    }
+
+    &__swiper {
+        height: 800px;
+        z-index: 3;
+
+        @include breakpointDown(1400px) {
+            height: 550px;
+        }
+
+        .swiper {
+            height: 800px;
+            padding-top: 25px;
+            @include swiperTransparentSlides();
+
+            @include breakpointDown(1400px) {
+                height: 550px !important;
+                padding-top: 0;
+            }
+
+            &-slide {
+                height: max-content;
+            }
+        }
+
+        @include breakpointDown(1400px) {
+            height: 550px !important;
+        }
+
+        &--wrapper {
+            display: flex;
+            flex-flow: row nowrap;
+            column-gap: 60px;
+            width: 100%;
+            flex: 1;
+
+            &[data-direction="row-reverse"] {
+                flex-flow: row-reverse nowrap;
+                height: 800px;
+
+                @include breakpointDown(1400px) {
+                    height: 550px !important;
+                }
+            }
+
+            @include breakpointDown($bp-desktop-sm) {
+                column-gap: 25px;
+            }
+
+            @include breakpointDown($bp-tablet-md) {
+                flex-flow: column-reverse nowrap;
+            }
+
+            @include breakpointDown($bp-mobile-lg) {
+                justify-content: space-between;
+            }
+        }
+
+        &--controls {
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            row-gap: 10px;
+            column-gap: 10px;
+            height: 800px;
+            z-index: 3;
+
+            @include breakpointDown(1400px) {
+                height: 550px !important;
+            }
+
+            .swiper__prev {
+                transform: rotate(90deg);
+                font-family: 'Arial', sans-serif;
+            }
+            .swiper__next {
+                transform: rotate(90deg);
+                font-family: 'Arial', sans-serif;
+            }
+        }
+    }
+}
+

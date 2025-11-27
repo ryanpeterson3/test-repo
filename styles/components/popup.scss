@@ -1,0 +1,268 @@
+@keyframes PopupFadeIn {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
+}
+
+.popup-content {
+    padding: 0 !important;
+    border: none !important;
+    width: unset !important;
+
+    animation: PopupFadeIn 0.2s ease-in-out;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+
+    .listingPopup__floorplan img {
+        animation: PopupFadeIn 0.5s ease-in-out;
+    }
+}
+
+.popup-content {
+    background: rgba(255, 255, 255, 0.5) !important;
+    backdrop-filter: blur(5px);
+}
+
+.popup-overlay {
+    overflow-y: auto !important;
+}
+
+.pagePopup {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 1200px;
+    max-width: 90vw;
+    box-shadow: $box-shadow;
+    background: $c-white;
+    position: relative;
+
+    &[data-type="Three Rows"] {
+        h2, h3 {
+            font-family: $f-crimson !important;
+        }
+
+        h2 {
+            margin: 0;
+        }
+    }
+
+    h2, h3 {
+        margin-bottom: 10px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    p, a {
+        margin-bottom: 10px;
+
+        @include breakpointDown($bp-tablet-md) {
+            font-size: 14px;
+            line-height: 18px;
+        }
+    }
+
+    a {
+        margin: 0;
+    }
+
+    li {
+        list-style-position: inside;
+        @include bodyCopyTypography();
+    }
+
+    &__close {
+        @include iframeClose();
+        background: $c-white;
+        border-radius: 50px;
+        height: 50px;
+        width: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: $box-shadow;
+        z-index: 3;
+
+        @include breakpointDown($bp-tablet-md) {
+            height: 35px;
+            width: 35px;
+        }
+
+        svg {
+            height: 25px;
+            width: 25px;
+
+            @include breakpointDown($bp-mobile-lg) {
+                height: 15px;
+                width: 15px;
+            }
+        }
+    }
+
+    &__image {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+
+        img {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        &--logo {
+            position: absolute;
+            top: -3.75%;
+            left: 5%;
+            width: 25% !important;
+            height: unset !important;
+            object-fit: cover !important;
+            object-position: unset !important;
+            z-index: 3;
+
+            @include breakpointDown($bp-tablet-md) {
+                width: 20% !important;
+            }
+        }
+
+
+        h2 {
+            position: relative;
+            z-index: 3;
+            color: $c-white !important;
+            text-shadow: 2.5px 2.5px 2.5px #00000040;
+        }
+
+        height: 290px;
+
+        @include breakpointDown($bp-tablet-md) {
+            height: 150px;
+        }
+
+        @include breakpointDown($bp-tablet-sm) {
+            height: 100px;
+        }
+    }
+
+    &__content {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        // max-height: 350px;
+        padding: 25px 50px;
+        text-align: center;
+
+        @include breakpointDown($bp-tablet-md) {
+            padding: 15px;
+        }
+
+
+        &--copy {
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+            @include breakpointDown($bp-tablet-md) {
+                row-gap: 10px;
+            }
+            @include breakpointDown($bp-mobile-lg) {
+                row-gap: 5px;
+            }
+        }
+    }
+
+    &__thirdRow {
+        // max-height: 270px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        column-gap: 50px;
+        padding: 25px 50px;
+
+        @include breakpointDown($bp-tablet-md) {
+            flex-flow: column nowrap;
+            padding: 15px;
+        }
+
+        &--icon {
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: flex-start;
+            align-items: center;
+            column-gap: 25px;
+
+            @include breakpointDown($bp-tablet-md) {
+                width: 100%;
+                justify-content: center;
+                margin-bottom: 10px;
+                column-gap: 10px;
+            }
+
+            h2, h3, h4 {
+                margin: 0;
+            }
+
+            img {
+                height: 100px;
+                width: 100px;
+                @include breakpointDown($bp-tablet-md) {
+                    height: 50px;
+                    width: 50px;
+                }
+            }
+
+            &Header {
+                display: none;
+
+                @include breakpointDown($bp-tablet-md) {
+                    display: block;
+                }
+            }
+        }
+
+        &--header {
+            display: block;
+            h2, h3, h4 {
+                margin: 0;
+            }
+            @include breakpointDown($bp-tablet-md) {
+                display: none;
+            }
+        }
+
+        p {
+            margin: 0;
+        }
+
+        &--copy {
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: flex-start;
+            align-items: flex-start;
+            text-align: start;
+            row-gap: 10px;
+
+            h2, h3, h4, p {
+                margin: 0;
+            }
+
+            .btn {
+                @include breakpointDown($bp-tablet-md) {
+                    align-self: center;
+                }
+            }
+        }
+    }
+}

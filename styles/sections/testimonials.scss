@@ -1,0 +1,217 @@
+.testimonials {
+    background: $c-lepineDarkGrey2;
+    height: 825px;
+
+    @include breakpointDown($bp-tablet-md) {
+        height: auto;
+    }
+
+    &__popup {
+        @include iframeContainer();
+    }
+
+    &__video {
+        &--image {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            object-position: center;
+            position: absolute;
+            top: 0;
+            left: 0;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: center;
+            }
+        }
+
+        &--icon {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                height: 100px !important;
+                width: 100px !important;
+                z-index: 2;
+            }
+        }
+
+        &--wrapper {
+            position: relative;
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            height: 100%;
+            width: 100%;
+    
+            video {
+                background: black;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                z-index: 1;
+            }
+        }
+    }
+
+    &__swiper {  
+        position: relative;
+        
+        &--overlay {
+            position: absolute;
+            left: 0;
+            width: 100%;
+            height: 50px;
+            z-index: 2;
+
+            &[data-overlay="top"] {
+                top: 0;
+                background: linear-gradient(180deg, rgba(255,255,255,1) 25%, rgba(255,255,255,0) 100%);
+            }
+
+            &[data-overlay="bottom"] {
+                bottom: 0;
+                background: linear-gradient(0deg, rgba(255,255,255,1) 25%, rgba(255,255,255,0) 100%);
+            }
+        }
+
+        &[data-swiper="desktop"] {
+            width: 348px;
+            display: block;
+            height: 825px;
+            overflow-y: hidden;
+
+            @include breakpointDown($bp-tablet-md) {
+                display: none;
+            }
+
+            .swiper-slide {
+                align-items: center;
+            }
+        }
+
+        &[data-swiper="mobile"] {
+            display: none;
+
+            @include breakpointDown($bp-tablet-md) {
+                display: block;
+            }
+        }
+
+        @include breakpointDown($bp-tablet-md) {
+            width: 100%;
+        }
+
+        &--wrapper {
+            display: flex;
+            flex-flow: row nowrap;
+            column-gap: 60px;
+            width: 100%;
+            flex: 1;
+
+            &[data-direction="row-reverse"] {
+                flex-flow: row-reverse nowrap;
+                height: 100%;
+            }
+
+            @include breakpointDown($bp-desktop-sm) {
+                column-gap: 25px;
+            }
+
+            @include breakpointDown($bp-tablet-md) {
+                flex-flow: column-reverse nowrap;
+            }
+        }
+
+        &--controls {
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            row-gap: 10px;
+            column-gap: 10px;
+            height: 825px;
+
+            @include breakpointDown($bp-tablet-md) {
+                flex-flow: row nowrap;
+                justify-content: flex-end;
+                height: auto;
+                padding: 25px 0;
+            }
+
+            .swiper__prev {
+                @include breakpointUp($bp-tablet-md) {
+                    transform: rotate(90deg);
+                }
+            }
+            .swiper__next {
+                @include breakpointUp($bp-tablet-md) {
+                    transform: rotate(90deg);
+                }
+            }
+        }
+
+        &--content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex: 1 1;
+            height: 825px;
+            width: 100%;
+
+            &-wrapper {
+                max-height: 640px;
+                max-width: 960px;
+                width: 100%;
+                height: 100%;
+                background: #B2ACAA;
+
+                &.fadeIn {
+                    img, video {
+                        opacity: 1;
+                        transition: opacity 0.25s;    
+                    }
+                }
+
+                &.fadeOut {
+                    img, video {
+                        opacity: 0;
+                    }
+                }
+
+                @include breakpointDown($bp-desktop-sm) {
+                    height: 512px;
+                }
+
+                img, video {
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                    object-position: center;
+                }
+            }
+
+            @include breakpointDown($bp-tablet-md) {
+                flex: unset;
+                display: none;
+            }
+        }
+    }
+}

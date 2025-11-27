@@ -1,0 +1,2412 @@
+{
+  "pageProps": {
+    "minmax": {
+      "property": "howardgrant",
+      "price": {
+        "min": 3395,
+        "max": 4195
+      },
+      "sqft": {
+        "min": 1295,
+        "max": 1503
+      }
+    },
+    "popup": null,
+    "property": {
+      "name": "Howard Grant",
+      "pageId": "howardgrant",
+      "createdAt": "2023-02-24T13:18:25.131Z",
+      "updatedAt": "2025-08-01T19:35:17.251Z",
+      "publishedAt": "2023-02-24T14:39:22.634Z",
+      "displayMap": true,
+      "availabilityCopy": "none",
+      "mapCopy": "Barrhaven is more than just a neighbourhood, it’s a thriving community with something to offer for everyone.\n\nKnown for its welcoming atmosphere and growing amenities, Barrhaven is home to great schools, parks and a dynamic mix of local businesses. Spend your weekends exploring nearby trails, enjoying a meal at one of the many restaurants, or shopping at convenient retail centers.\n\nThe area also offers excellent transit options and quick access to downtown Ottawa, making it ideal for professionals, young families, and empty nesters.\n\nHoward Grant places you at the center of this lively community, with everything you need to live, work and play close at hand.",
+      "leasingCopy": "Moving into a new home doesn’t have to be stressful. At Howard Grant, we prioritize transparency and personalized service to make your transition smooth and enjoyable.\n\nOur leasing specialists are here to help you understand all your options, plan your move and will be on hand to ensure your move-in goes as smoothly as possible. We understand that your home is your sanctuary, and we’re committed to making Howard Grant the place where you feel at ease.",
+      "hero": {
+        "id": 6,
+        "header": "Modern Apartment Homes in Barrhaven",
+        "description": "Live carefree in the bustling Ottawa suburb of Barrhaven, connected to everything you need for a modern life. The grand entrance lobby and the elite-level amenities of this rental apartment community make this address one of the most sought after in Barrhaven.",
+        "content": {
+          "id": 6,
+          "type": "video",
+          "video": "https://lepine-storage.nyc3.digitaloceanspaces.com/5531ef907fbaa160762e782cf55e5d3b.mp4",
+          "image": {
+            "data": {
+              "id": 177,
+              "attributes": {
+                "name": "img-header-2560-1921.jpg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1368,
+                "height": 771,
+                "formats": {
+                  "large": {
+                    "ext": ".jpg",
+                    "url": "https://lepine-storage.nyc3.digitaloceanspaces.com/538a165ea8dca3bcc4cd70df19c9b091.jpg",
+                    "hash": "538a165ea8dca3bcc4cd70df19c9b091",
+                    "mime": "image/jpeg",
+                    "name": "large_img-header-2560-1921.jpg",
+                    "path": null,
+                    "size": 69.84,
+                    "width": 1000,
+                    "height": 564
+                  },
+                  "small": {
+                    "ext": ".jpg",
+                    "url": "https://lepine-storage.nyc3.digitaloceanspaces.com/fb482642f2ae9c0b2bfd4973f99877b3.jpg",
+                    "hash": "fb482642f2ae9c0b2bfd4973f99877b3",
+                    "mime": "image/jpeg",
+                    "name": "small_img-header-2560-1921.jpg",
+                    "path": null,
+                    "size": 24.24,
+                    "width": 500,
+                    "height": 282
+                  },
+                  "medium": {
+                    "ext": ".jpg",
+                    "url": "https://lepine-storage.nyc3.digitaloceanspaces.com/c0b6fdee672768923cd36e75819b309c.jpg",
+                    "hash": "c0b6fdee672768923cd36e75819b309c",
+                    "mime": "image/jpeg",
+                    "name": "medium_img-header-2560-1921.jpg",
+                    "path": null,
+                    "size": 44.52,
+                    "width": 750,
+                    "height": 423
+                  },
+                  "thumbnail": {
+                    "ext": ".jpg",
+                    "url": "https://lepine-storage.nyc3.digitaloceanspaces.com/e105476e79a1d4331f9080306f154bdd.jpg",
+                    "hash": "e105476e79a1d4331f9080306f154bdd",
+                    "mime": "image/jpeg",
+                    "name": "thumbnail_img-header-2560-1921.jpg",
+                    "path": null,
+                    "size": 7.32,
+                    "width": 245,
+                    "height": 138
+                  }
+                },
+                "hash": "ecdb4c4745341641382ebf4e57547bd6",
+                "ext": ".jpg",
+                "mime": "image/jpeg",
+                "size": 111.31,
+                "url": "https://lepine-storage.nyc3.digitaloceanspaces.com/ecdb4c4745341641382ebf4e57547bd6.jpg",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-do",
+                "provider_metadata": null,
+                "createdAt": "2023-02-17T16:34:08.418Z",
+                "updatedAt": "2023-02-17T16:34:08.418Z"
+              }
+            }
+          }
+        }
+      },
+      "logos": {
+        "id": 6,
+        "light": {
+          "data": {
+            "id": 1608,
+            "attributes": {
+              "name": "1814-Logo-Howard-Grant-White-Logo.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 450,
+              "height": 101,
+              "formats": null,
+              "hash": "9b68df11096ff7eb967ff36a0739e483",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 12.58,
+              "url": "https://lepine-storage.nyc3.digitaloceanspaces.com/9b68df11096ff7eb967ff36a0739e483.svg",
+              "previewUrl": null,
+              "provider": "strapi-provider-upload-do",
+              "provider_metadata": null,
+              "createdAt": "2024-09-23T15:12:56.577Z",
+              "updatedAt": "2024-09-23T15:12:56.577Z"
+            }
+          }
+        },
+        "dark": {
+          "data": {
+            "id": 1609,
+            "attributes": {
+              "name": "1814-Logo-Howard-Grant-Colour-Logo.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 450,
+              "height": 101,
+              "formats": null,
+              "hash": "08170b8bca94c9c593e9e0293c99f46b",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 12.6,
+              "url": "https://lepine-storage.nyc3.digitaloceanspaces.com/08170b8bca94c9c593e9e0293c99f46b.svg",
+              "previewUrl": null,
+              "provider": "strapi-provider-upload-do",
+              "provider_metadata": null,
+              "createdAt": "2024-09-23T15:12:56.590Z",
+              "updatedAt": "2024-09-23T15:12:56.590Z"
+            }
+          }
+        },
+        "markers": {
+          "id": 6,
+          "propertyPage": {
+            "data": {
+              "id": 1610,
+              "attributes": {
+                "name": "a9b96878ab2f07ccbf663795e19a78ef.svg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 295,
+                "height": 94,
+                "formats": null,
+                "hash": "0163de7ffa3fba38d2ae5c85318bd55a",
+                "ext": ".svg",
+                "mime": "image/svg+xml",
+                "size": 13.21,
+                "url": "https://lepine-storage.nyc3.digitaloceanspaces.com/0163de7ffa3fba38d2ae5c85318bd55a.svg",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-do",
+                "provider_metadata": null,
+                "createdAt": "2024-09-23T15:15:32.184Z",
+                "updatedAt": "2024-09-23T15:15:32.184Z"
+              }
+            }
+          },
+          "homePage": {
+            "data": {
+              "id": 60,
+              "attributes": {
+                "name": "communities-howardgrant.jpg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 348,
+                "height": 274,
+                "formats": {
+                  "thumbnail": {
+                    "ext": ".jpg",
+                    "url": "https://lepine-storage.nyc3.digitaloceanspaces.com/40ab54268c7c19ae557f64c5e52d4690.jpg",
+                    "hash": "40ab54268c7c19ae557f64c5e52d4690",
+                    "mime": "image/jpeg",
+                    "name": "thumbnail_communities-howardgrant.jpg",
+                    "path": null,
+                    "size": 5.97,
+                    "width": 198,
+                    "height": 156
+                  }
+                },
+                "hash": "f2c2b8de463fb23705f01fa72758066a",
+                "ext": ".jpg",
+                "mime": "image/jpeg",
+                "size": 14.24,
+                "url": "https://lepine-storage.nyc3.digitaloceanspaces.com/f2c2b8de463fb23705f01fa72758066a.jpg",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-do",
+                "provider_metadata": null,
+                "createdAt": "2023-02-14T16:24:00.417Z",
+                "updatedAt": "2023-02-14T16:24:00.417Z"
+              }
+            }
+          }
+        }
+      },
+      "address": {
+        "id": 6,
+        "postalCode": "K2J 6R3",
+        "streetAddress": "1024 McGarry Terrace",
+        "coords": {
+          "id": 13,
+          "lat": 45.2723299,
+          "lng": -75.7419639
+        },
+        "city": {
+          "name": "Barrhaven",
+          "description": "Beloved Barrhaven, Ontario is known for its family-oriented demographic. From a buzzing restaurant scene to an abundance of parks for recreational activities, this Ottawa neighbourhood is perfect for established adults. "
+        },
+        "tourLocation": "Walk-In Tours Welcome at 1024 McGarry Terrace, Barrhaven"
+      },
+      "propertySuite": {
+        "id": 6,
+        "copy": "Welcome to Howard Grant, the premier choice for apartment rentals in Barrhaven.\n\nNestled in the heart of Barrhaven, Howard Grant apartments are thoughtfully designed to create a harmonious living space that balances luxury with everyday practicality. With [spacious, open-concept layouts](https://lepineapartments.com/newsroom/bungalow-sized-apartments), high-end finishes, and premium amenities, Howard Grant redefines what it means to live well.\n\nResidents enjoy exclusive access to top-tier amenities, including a fully equipped fitness center, saltwater pool, yoga studio, a sundeck, and more!\n\nLocated in one of Ottawa’s most vibrant neighbourhoods, you’ll find everything you need just steps away. From local restaurants and shops to scenic parks and community hubs, Barrhaven offers the perfect blend of urban convenience and suburban tranquillity.\n\nWhether you’re starting a new chapter, downsizing, or relocating, Howard Grant provides a seamless living experience tailored to your lifestyle.\n\nExplore your new [premium rental lifestyle](https://lepineapartments.com/newsroom/why-more-homeowners-are-choosing-a-premium-rental-lifestyle) in an apartment at Howard Grant today!",
+        "image": {
+          "id": 10,
+          "subtitle": "Modern Apartment Rentals in Barrhaven",
+          "image": {
+            "data": {
+              "id": 1422,
+              "attributes": {
+                "name": "img-suites.jpg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1200,
+                "height": 750,
+                "formats": {
+                  "large": {
+                    "ext": ".jpg",
+                    "url": "https://lepine-storage.nyc3.digitaloceanspaces.com/5ac4e0d78982c2da6b95351d801cf1ec.jpg",
+                    "hash": "5ac4e0d78982c2da6b95351d801cf1ec",
+                    "mime": "image/jpeg",
+                    "name": "large_img-suites.jpg",
+                    "path": null,
+                    "size": 78.31,
+                    "width": 1000,
+                    "height": 625
+                  },
+                  "small": {
+                    "ext": ".jpg",
+                    "url": "https://lepine-storage.nyc3.digitaloceanspaces.com/b03aa3ec40ee5b48bb4aca155a6f62b2.jpg",
+                    "hash": "b03aa3ec40ee5b48bb4aca155a6f62b2",
+                    "mime": "image/jpeg",
+                    "name": "small_img-suites.jpg",
+                    "path": null,
+                    "size": 24.69,
+                    "width": 500,
+                    "height": 313
+                  },
+                  "medium": {
+                    "ext": ".jpg",
+                    "url": "https://lepine-storage.nyc3.digitaloceanspaces.com/7807cdaa9e066773a09ad9b678e8f5e4.jpg",
+                    "hash": "7807cdaa9e066773a09ad9b678e8f5e4",
+                    "mime": "image/jpeg",
+                    "name": "medium_img-suites.jpg",
+                    "path": null,
+                    "size": 48.58,
+                    "width": 750,
+                    "height": 469
+                  },
+                  "thumbnail": {
+                    "ext": ".jpg",
+                    "url": "https://lepine-storage.nyc3.digitaloceanspaces.com/8044848f861178b5fb7420f945a70a20.jpg",
+                    "hash": "8044848f861178b5fb7420f945a70a20",
+                    "mime": "image/jpeg",
+                    "name": "thumbnail_img-suites.jpg",
+                    "path": null,
+                    "size": 8.18,
+                    "width": 245,
+                    "height": 153
+                  }
+                },
+                "hash": "4aef3d70ba13703eb087b3a158bf1054",
+                "ext": ".jpg",
+                "mime": "image/jpeg",
+                "size": 107.83,
+                "url": "https://lepine-storage.nyc3.digitaloceanspaces.com/4aef3d70ba13703eb087b3a158bf1054.jpg",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-do",
+                "provider_metadata": null,
+                "createdAt": "2024-01-10T14:02:57.715Z",
+                "updatedAt": "2024-01-10T14:02:57.715Z"
+              }
+            }
+          },
+          "subtitleIcon": {
+            "data": {
+              "id": 321,
+              "attributes": {
+                "name": "howardGrantSuites.svg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 88,
+                "height": 82,
+                "formats": null,
+                "hash": "c69758c6858966d856965f7734601233",
+                "ext": ".svg",
+                "mime": "image/svg+xml",
+                "size": 2.45,
+                "url": "https://lepine-storage.nyc3.digitaloceanspaces.com/c69758c6858966d856965f7734601233.svg",
+                "previewUrl": null,
+                "provider": "strapi-provider-upload-do",
+                "provider_metadata": null,
+                "createdAt": "2023-02-21T19:29:13.802Z",
+                "updatedAt": "2023-02-21T19:29:13.802Z"
+              }
+            }
+          }
+        }
+      },
+      "listings": {
+        "id": 5,
+        "header": "Register For First Priority Access",
+        "moveInDate": "Move in Spring 2023",
+        "copy": "By registering you’ll be among the first to receive access to book a leasing appointment. You can expect our team to contact you with more details on floorplans and pricing in the near future.",
+        "registrationPortalId": "22452018",
+        "registrationFormId": "74b6b526-244c-4eca-ba63-4ca77cb6d9a4",
+        "goalName": "howardgrant_property_form_submitted",
+        "bookAppointmentURL": null,
+        "priceRange": "Shop to compare the value of a modern Lépine Apartment lifestyle in Barrhaven",
+        "noListingsCTA": ".",
+        "disableListingsPricing": true,
+        "leasingPhoneNumber": null,
+        "contactCopy": "Can't find what you're looking for? Contact us to explore more options.",
+        "bookNowURL": null,
+        "popupImage": {
+          "data": {
+            "id": 144,
+            "attributes": {
+              "name": "floorplan-sorter-building.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 450,
+              "height": 440,
+              "formats": {
+                "thumbnail": {
+                  "ext": ".jpg",
+                  "url": "https://lepine-storage.nyc3.digitaloceanspaces.com/d907e62872026e50e5e0816c4f17f014.jpg",
+                  "hash": "d907e62872026e50e5e0816c4f17f014",
+                  "mime": "image/jpeg",
+                  "name": "thumbnail_floorplan-sorter-building.jpg",
+                  "path": null,
+                  "size": 6.74,
+                  "width": 160,
+                  "height": 156
+                }
+              },
+              "hash": "eaae996f6527985b50c5c48a590c6adb",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 35.95,
+              "url": "https://lepine-storage.nyc3.digitaloceanspaces.com/eaae996f6527985b50c5c48a590c6adb.jpg",
+              "previewUrl": null,
+              "provider": "strapi-provider-upload-do",
+              "provider_metadata": null,
+              "createdAt": "2023-02-17T16:33:43.591Z",
+              "updatedAt": "2023-02-17T16:33:43.591Z"
+            }
+          }
+        }
+      },
+      "features": {
+        "id": 5,
+        "copy": "At Howard Grant, the details make all the difference. Our residents enjoy access to a range of thoughtfully curated amenities designed to make life more enjoyable. Whether it’s starting your day with a workout in the fitness center, unwinding in the saltwater pool, or socializing in the games lounge, Howard Grant has something for everyone. Howard Grant is conveniently located near shopping, restaurants, wellness services and scenic green spaces, providing an ideal blend of nature and urban convenience.\n",
+        "amenities": [
+          {
+            "id": 94,
+            "name": "Lobby",
+            "copy": "Step into the welcoming lobby—an elegant gateway to the essence of community living. From the moment you enter, you're embraced by an atmosphere of warmth and comfort.",
+            "header": "Lobby",
+            "image": "https://lepine-storage.nyc3.digitaloceanspaces.com/623bc8680615ebe6d0b64b3320691ebc.png",
+            "cardImage": "https://lepine-storage.nyc3.digitaloceanspaces.com/86e8cbf421434205f6715b2a17b6d64d.jpg"
+          },
+          {
+            "id": 92,
+            "name": "Games Lounge",
+            "copy": "The games lounge offers the perfect blend of entertainment and comfort for all ages. It's a space where friendships are forged, stories are shared, and a sense of community thrives.",
+            "header": "Games Lounge",
+            "cardImage": "https://lepine-storage.nyc3.digitaloceanspaces.com/de4551022ead36d3aeac26d1055c922a.jpg"
+          },
+          {
+            "id": 91,
+            "name": "Reception Hall",
+            "copy": "The reception hall is a canvas for your events, whether it be a lively community celebration, or a cozy gathering. The hall features a catering kitchen, making it easy to entertain.",
+            "header": "Reception Hall",
+            "image": "https://lepine-storage.nyc3.digitaloceanspaces.com/1af64e2c41cc192fa39303b3c68395c9.jpg",
+            "cardImage": "https://lepine-storage.nyc3.digitaloceanspaces.com/46446656e7166ab33e45d2de39908996.jpg"
+          },
+          {
+            "id": 90,
+            "name": "Fitness Centre",
+            "copy": "Cutting-edge equipment and dedicated spaces for cardio and strength training gives you the tools to elevate your fitness regime.",
+            "header": "Fitness Centre",
+            "cardImage": "https://lepine-storage.nyc3.digitaloceanspaces.com/b8afc297fed044c6a7f5b4d84dd060b7.png"
+          },
+          {
+            "id": 93,
+            "name": "Yoga Studio",
+            "copy": "Serenity meets strength in the tranquil yoga studio as you embark on a journey to a balanced and mindful lifestyle.",
+            "header": "Yoga Studio",
+            "cardImage": "https://lepine-storage.nyc3.digitaloceanspaces.com/7ae40aa20037420be4de2cbac3daf49e.png"
+          },
+          {
+            "id": 95,
+            "name": "Saltwater Pool",
+            "copy": "Dive into relaxation and rejuvenation at the heated saltwater pool. Whether you seek a serene morning dip or an afternoon of family fun, the pool promises a retreat for residents of all ages.",
+            "header": "Saltwater Pool",
+            "cardImage": "https://lepine-storage.nyc3.digitaloceanspaces.com/7dbb4db5fd84f6a69dd6f51e6949b06f.png"
+          },
+          {
+            "id": 96,
+            "name": "Sauna",
+            "copy": "Relaxation meets wellness in a space designed for holistic rejuvenation. The sauna's warmth not only provides a reprieve for tired muscles but also promotes a sense of mental clarity and relaxation.",
+            "header": "Sauna",
+            "cardImage": "https://lepine-storage.nyc3.digitaloceanspaces.com/0a32d0b66dbb4e19164ffceda32a5dc0.png"
+          },
+          {
+            "id": 97,
+            "name": "Change Rooms",
+            "copy": "Change rooms in the fitness centre offer a seamless transition into and out of your wellness activities, making it easy to streamline your daily routine.",
+            "header": "Change Rooms",
+            "cardImage": "https://lepine-storage.nyc3.digitaloceanspaces.com/a1718c8cbbb672a1363ffb60969fe56c.png"
+          },
+          {
+            "id": 98,
+            "name": "Heated Underground Parking",
+            "copy": "No more scraping ice or snow off windshields in winter; secure, well-lit, heated parking ensures a comfortable start to your journey year-round. ",
+            "header": "Heated Underground Parking",
+            "cardImage": "https://lepine-storage.nyc3.digitaloceanspaces.com/e772124729e907cda9e5adf58bc6f7f7.png"
+          },
+          {
+            "id": 100,
+            "name": "Resident Storage Lockers",
+            "copy": "These secure and accessible spaces give you the freedom to declutter your living areas and store seasonal items, sports gear, or extra belongings with ease.",
+            "header": "Resident Storage Lockers",
+            "cardImage": "https://lepine-storage.nyc3.digitaloceanspaces.com/4dc0acb37c83719dbfd3fc1b5547e0ec.jpg"
+          },
+          {
+            "id": 99,
+            "name": "Bicycle Storage",
+            "copy": "Embrace an active and eco-friendly lifestyle with dedicated bicycle storage. This secure space ensures your ride is always ready for your next adventure.",
+            "header": "Bicycle Storage",
+            "cardImage": "https://lepine-storage.nyc3.digitaloceanspaces.com/e2c10b6709dd22ddb69f520eb8988a7a.png"
+          },
+          {
+            "id": 137,
+            "name": "Sundeck",
+            "copy": "This oasis offers a serene retreat where you can unwind, soak up the sun, or simply revel in the beauty of the surroundings.",
+            "header": "Sundeck",
+            "cardImage": "https://lepine-storage.nyc3.digitaloceanspaces.com/3bbfd854394caead649ec49c6dcc983a.jpg"
+          }
+        ],
+        "gallery": [
+          "https://lepine-storage.nyc3.digitaloceanspaces.com/2c02be8a55919c80940e4104a8415177.jpg",
+          "https://lepine-storage.nyc3.digitaloceanspaces.com/8b25eaad657475da5490cd64feeca219.jpg",
+          "https://lepine-storage.nyc3.digitaloceanspaces.com/f647ecd67e57a9c0edcb35bcb78591e1.jpg",
+          "https://lepine-storage.nyc3.digitaloceanspaces.com/c1ee73b60e88800a0cf47039a873a411.jpg",
+          "https://lepine-storage.nyc3.digitaloceanspaces.com/fe2120e10b7caddc11f7ec982836f52a.jpg",
+          "https://lepine-storage.nyc3.digitaloceanspaces.com/01a0df455f3244ae2ea8f213d806fbb1.jpg",
+          "https://lepine-storage.nyc3.digitaloceanspaces.com/fda5cb3bc2faadcefb856864a6f9109f.jpg",
+          "https://lepine-storage.nyc3.digitaloceanspaces.com/38e4de9b8b85198e9f1070c03dc48ae5.jpg",
+          "https://lepine-storage.nyc3.digitaloceanspaces.com/246144e3eb4b768a4b9da3ce174af3fc.jpg",
+          "https://lepine-storage.nyc3.digitaloceanspaces.com/5495fc705fe084b7de77655eee9717f6.jpg",
+          "https://lepine-storage.nyc3.digitaloceanspaces.com/40b1e5b7b27ce7d8a6946f808ac83ad0.jpg",
+          "https://lepine-storage.nyc3.digitaloceanspaces.com/417da1ad4f4e410bc2286af360a12943.jpg",
+          "https://lepine-storage.nyc3.digitaloceanspaces.com/3bfab6a40cb82fa60bbd553e9c76062e.jpg",
+          "https://lepine-storage.nyc3.digitaloceanspaces.com/309a093f97207f9637af8562399fabc5.jpg",
+          "https://lepine-storage.nyc3.digitaloceanspaces.com/edef3cb97e246bb2fd84e0d037c82a69.jpg",
+          "https://lepine-storage.nyc3.digitaloceanspaces.com/ec05448c26b47449c7ed2d1bbb1683cd.jpg",
+          "https://lepine-storage.nyc3.digitaloceanspaces.com/b2d016f786d8873c7a87b6c8ce360b7f.jpg",
+          "https://lepine-storage.nyc3.digitaloceanspaces.com/3335792d5db2113816819f38be2a44c5.jpg"
+        ],
+        "desktopImage": {
+          "data": {
+            "id": 389,
+            "attributes": {
+              "name": "img-propertyfeatures-bg.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 960,
+              "height": 780,
+              "formats": {
+                "small": {
+                  "ext": ".jpg",
+                  "url": "https://lepine-storage.nyc3.digitaloceanspaces.com/f736fa9fe397a6c11dd46d76a73eb5a2.jpg",
+                  "hash": "f736fa9fe397a6c11dd46d76a73eb5a2",
+                  "mime": "image/jpeg",
+                  "name": "small_img-propertyfeatures-bg.jpg",
+                  "path": null,
+                  "size": 24.57,
+                  "width": 500,
+                  "height": 406
+                },
+                "medium": {
+                  "ext": ".jpg",
+                  "url": "https://lepine-storage.nyc3.digitaloceanspaces.com/dfdecd5b6f73e08ed8e1e083b2b17d5b.jpg",
+                  "hash": "dfdecd5b6f73e08ed8e1e083b2b17d5b",
+                  "mime": "image/jpeg",
+                  "name": "medium_img-propertyfeatures-bg.jpg",
+                  "path": null,
+                  "size": 45.85,
+                  "width": 750,
+                  "height": 609
+                },
+                "thumbnail": {
+                  "ext": ".jpg",
+                  "url": "https://lepine-storage.nyc3.digitaloceanspaces.com/613b2c7a1555da39a549fc1920f36944.jpg",
+                  "hash": "613b2c7a1555da39a549fc1920f36944",
+                  "mime": "image/jpeg",
+                  "name": "thumbnail_img-propertyfeatures-bg.jpg",
+                  "path": null,
+                  "size": 5.33,
+                  "width": 192,
+                  "height": 156
+                }
+              },
+              "hash": "3b3cec96b194a4c06e6efea136a6be7e",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 66.02,
+              "url": "https://lepine-storage.nyc3.digitaloceanspaces.com/3b3cec96b194a4c06e6efea136a6be7e.jpg",
+              "previewUrl": null,
+              "provider": "strapi-provider-upload-do",
+              "provider_metadata": null,
+              "createdAt": "2023-03-01T16:45:58.522Z",
+              "updatedAt": "2023-03-01T16:45:58.522Z"
+            }
+          }
+        },
+        "mobileImage": {
+          "data": {
+            "id": 390,
+            "attributes": {
+              "name": "img-propertyfeatures-1024.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 1024,
+              "height": 564,
+              "formats": {
+                "large": {
+                  "ext": ".jpg",
+                  "url": "https://lepine-storage.nyc3.digitaloceanspaces.com/c1396c674e9b47673a9a4fefd3cf59b2.jpg",
+                  "hash": "c1396c674e9b47673a9a4fefd3cf59b2",
+                  "mime": "image/jpeg",
+                  "name": "large_img-propertyfeatures-1024.jpg",
+                  "path": null,
+                  "size": 46.15,
+                  "width": 1000,
+                  "height": 551
+                },
+                "small": {
+                  "ext": ".jpg",
+                  "url": "https://lepine-storage.nyc3.digitaloceanspaces.com/a0b55e67631cff6b68aefa6da32bb9dd.jpg",
+                  "hash": "a0b55e67631cff6b68aefa6da32bb9dd",
+                  "mime": "image/jpeg",
+                  "name": "small_img-propertyfeatures-1024.jpg",
+                  "path": null,
+                  "size": 16.41,
+                  "width": 500,
+                  "height": 275
+                },
+                "medium": {
+                  "ext": ".jpg",
+                  "url": "https://lepine-storage.nyc3.digitaloceanspaces.com/1a1d50fceff57cc712c264c355032557.jpg",
+                  "hash": "1a1d50fceff57cc712c264c355032557",
+                  "mime": "image/jpeg",
+                  "name": "medium_img-propertyfeatures-1024.jpg",
+                  "path": null,
+                  "size": 30.19,
+                  "width": 750,
+                  "height": 413
+                },
+                "thumbnail": {
+                  "ext": ".jpg",
+                  "url": "https://lepine-storage.nyc3.digitaloceanspaces.com/c3a781f757c8495c6a175d0e9cdf2ab7.jpg",
+                  "hash": "c3a781f757c8495c6a175d0e9cdf2ab7",
+                  "mime": "image/jpeg",
+                  "name": "thumbnail_img-propertyfeatures-1024.jpg",
+                  "path": null,
+                  "size": 5.43,
+                  "width": 245,
+                  "height": 135
+                }
+              },
+              "hash": "3a1ef5f21cbfa8e7b18877b399211cc1",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 47.67,
+              "url": "https://lepine-storage.nyc3.digitaloceanspaces.com/3a1ef5f21cbfa8e7b18877b399211cc1.jpg",
+              "previewUrl": null,
+              "provider": "strapi-provider-upload-do",
+              "provider_metadata": null,
+              "createdAt": "2023-03-01T16:45:58.514Z",
+              "updatedAt": "2023-03-01T16:45:58.514Z"
+            }
+          }
+        },
+        "pdf": {
+          "data": {
+            "id": 869,
+            "attributes": {
+              "name": "06-2023-howardgrant-sitemap.pdf",
+              "alternativeText": null,
+              "caption": null,
+              "width": null,
+              "height": null,
+              "formats": null,
+              "hash": "f40ebf868fbb5115ab16b4e3c67e313a",
+              "ext": ".pdf",
+              "mime": "application/pdf",
+              "size": 582.87,
+              "url": "https://lepine-storage.nyc3.digitaloceanspaces.com/f40ebf868fbb5115ab16b4e3c67e313a.pdf",
+              "previewUrl": null,
+              "provider": "strapi-provider-upload-do",
+              "provider_metadata": null,
+              "createdAt": "2023-06-01T13:04:58.701Z",
+              "updatedAt": "2023-06-01T13:22:29.733Z"
+            }
+          }
+        }
+      },
+      "gallery": [
+        "https://lepine-storage.nyc3.digitaloceanspaces.com/ae37380b1510e85812bfd2eff87f31b6.jpg",
+        "https://lepine-storage.nyc3.digitaloceanspaces.com/39513b40d62931706e6d3c535d6f24a6.jpg",
+        "https://lepine-storage.nyc3.digitaloceanspaces.com/b504159fdbbccede59d7ded91b62e146.jpg",
+        "https://lepine-storage.nyc3.digitaloceanspaces.com/1b5e68c979c69b5c9881dd5df142764f.jpg",
+        "https://lepine-storage.nyc3.digitaloceanspaces.com/2427964242cda55b47df2f43996f2e9f.jpg"
+      ],
+      "map": [
+        {
+          "id": 23,
+          "category": "restaurants",
+          "mapItems": [
+            {
+              "id": 1,
+              "lat": 45.27438851,
+              "lng": -75.74819176,
+              "url": "location-restaurants-01.jpg",
+              "title": "Starbucks",
+              "bikeTime": 5,
+              "category": "restaurants",
+              "walkTime": 13,
+              "driveTime": 5
+            },
+            {
+              "id": 2,
+              "lat": 45.27408179,
+              "lng": -75.74796578,
+              "url": "location-restaurants-02.jpg",
+              "title": "Barley Mow",
+              "bikeTime": 5,
+              "category": "restaurants",
+              "walkTime": 12,
+              "driveTime": 3
+            },
+            {
+              "id": 3,
+              "lat": 45.27300718,
+              "lng": -75.74734223,
+              "url": "location-restaurants-03.jpg",
+              "title": "Boston Pizza",
+              "bikeTime": 5,
+              "category": "restaurants",
+              "walkTime": 11,
+              "driveTime": 3
+            },
+            {
+              "id": 4,
+              "lat": 45.268807,
+              "lng": -75.74498271,
+              "url": "location-restaurants-04.jpg",
+              "title": "Fiazza Fresh Fired",
+              "bikeTime": 4,
+              "category": "restaurants",
+              "walkTime": 10,
+              "driveTime": 4
+            },
+            {
+              "id": 5,
+              "lat": 45.26989803,
+              "lng": -75.74347243,
+              "url": "location-restaurants-05.jpg",
+              "title": "Sushi Shop",
+              "bikeTime": 4,
+              "category": "restaurants",
+              "walkTime": 8,
+              "driveTime": 3
+            },
+            {
+              "id": 6,
+              "lat": 45.26927018,
+              "lng": -75.73879384,
+              "url": "location-restaurants-06.jpg",
+              "title": "Presotea",
+              "bikeTime": 4,
+              "category": "restaurants",
+              "walkTime": 9,
+              "driveTime": 3
+            },
+            {
+              "id": 7,
+              "lat": 45.26904289,
+              "lng": -75.73941522,
+              "url": "location-restaurants-07.jpg",
+              "title": "Phở Thi Fusion",
+              "bikeTime": 4,
+              "category": "restaurants",
+              "walkTime": 9,
+              "driveTime": 3
+            },
+            {
+              "id": 8,
+              "lat": 45.27742556,
+              "lng": -75.74862299,
+              "url": "location-restaurants-08.jpg",
+              "title": "Mad Radish",
+              "bikeTime": 6,
+              "category": "restaurants",
+              "walkTime": 17,
+              "driveTime": 4
+            },
+            {
+              "id": 9,
+              "lat": 45.27682212,
+              "lng": -75.74968101,
+              "url": "location-restaurants-09.jpg",
+              "title": "Chocolats Favoris",
+              "bikeTime": 6,
+              "category": "restaurants",
+              "walkTime": 17,
+              "driveTime": 4
+            },
+            {
+              "id": 10,
+              "lat": 45.27528415,
+              "lng": -75.73698578,
+              "url": "location-restaurants-10.jpg",
+              "title": "The Baker",
+              "bikeTime": 3,
+              "category": "restaurants",
+              "walkTime": 7,
+              "driveTime": 2
+            },
+            {
+              "id": 11,
+              "lat": 45.26489666,
+              "lng": -75.7774013,
+              "url": "location-restaurants-11.jpg",
+              "title": "Cafe Cristal",
+              "bikeTime": 14,
+              "category": "restaurants",
+              "walkTime": 1,
+              "driveTime": 7
+            },
+            {
+              "id": 12,
+              "lat": 45.27642428,
+              "lng": -75.74928887,
+              "url": "location-restaurants-12.jpg",
+              "title": "Browns Socialhouse Barrhaven",
+              "bikeTime": 6,
+              "category": "restaurants",
+              "walkTime": 16,
+              "driveTime": 4
+            }
+          ],
+          "items": []
+        },
+        {
+          "id": 25,
+          "category": "shopping",
+          "mapItems": [
+            {
+              "id": 1,
+              "lat": 45.26984378,
+              "lng": -75.7392141,
+              "url": "location-shopping-01.jpg",
+              "title": "Sport Check",
+              "bikeTime": 3,
+              "category": "shopping",
+              "walkTime": 8,
+              "driveTime": 3
+            },
+            {
+              "id": 2,
+              "lat": 45.26998869,
+              "lng": -75.73948764,
+              "url": "location-shopping-02.jpg",
+              "title": "Indigo",
+              "bikeTime": 3,
+              "category": "shopping",
+              "walkTime": 7,
+              "driveTime": 3
+            },
+            {
+              "id": 3,
+              "lat": 45.26899923,
+              "lng": -75.74189932,
+              "url": "location-shopping-03.jpg",
+              "title": "LCBO",
+              "bikeTime": 4,
+              "category": "shopping",
+              "walkTime": 9,
+              "driveTime": 3
+            },
+            {
+              "id": 4,
+              "lat": 45.26812258,
+              "lng": -75.74335127,
+              "url": "location-shopping-04.jpg",
+              "title": "Loblaws",
+              "bikeTime": 5,
+              "category": "shopping",
+              "walkTime": 11,
+              "driveTime": 4
+            },
+            {
+              "id": 5,
+              "lat": 45.26755828,
+              "lng": -75.74962172,
+              "url": "location-shopping-05.jpg",
+              "title": "Best Buy",
+              "bikeTime": 6,
+              "category": "shopping",
+              "walkTime": 14,
+              "driveTime": 4
+            },
+            {
+              "id": 6,
+              "lat": 45.26720369,
+              "lng": -75.75082237,
+              "url": "location-shopping-06.jpg",
+              "title": "Home Depot",
+              "bikeTime": 6,
+              "category": "shopping",
+              "walkTime": 14,
+              "driveTime": 4
+            },
+            {
+              "id": 7,
+              "lat": 45.26820491,
+              "lng": -75.75118514,
+              "url": "location-shopping-07.jpg",
+              "title": "Shoppers Drug Mart",
+              "bikeTime": 6,
+              "category": "shopping",
+              "walkTime": 15,
+              "driveTime": 4
+            },
+            {
+              "id": 8,
+              "lat": 45.27222988,
+              "lng": -75.74567322,
+              "url": "location-shopping-08.jpg",
+              "title": "Canadian Tire",
+              "bikeTime": 4,
+              "category": "shopping",
+              "walkTime": 8,
+              "driveTime": 3
+            },
+            {
+              "id": 9,
+              "lat": 45.26794152,
+              "lng": -75.74408334,
+              "url": "location-shopping-09.jpg",
+              "title": "HomeSense",
+              "bikeTime": 4,
+              "category": "shopping",
+              "walkTime": 11,
+              "driveTime": 4
+            },
+            {
+              "id": 10,
+              "lat": 45.27410408,
+              "lng": -75.74715184,
+              "url": "location-shopping-10.jpg",
+              "title": "Farm Boy",
+              "bikeTime": 5,
+              "category": "shopping",
+              "walkTime": 11,
+              "driveTime": 4
+            },
+            {
+              "id": 11,
+              "lat": 45.27112653,
+              "lng": -75.78344425,
+              "url": "location-shopping-11.jpg",
+              "title": "Marshalls",
+              "bikeTime": 17,
+              "category": "shopping",
+              "walkTime": 1,
+              "driveTime": 9
+            },
+            {
+              "id": 12,
+              "lat": 45.27021769,
+              "lng": -75.74567537,
+              "url": "location-shopping-12.jpg",
+              "title": "Hallmark Davis Agency",
+              "bikeTime": 4,
+              "category": "shopping",
+              "walkTime": 7,
+              "driveTime": 4
+            }
+          ],
+          "items": []
+        },
+        {
+          "id": 22,
+          "category": "lifestyle",
+          "mapItems": [
+            {
+              "id": 1,
+              "lat": 45.27737168,
+              "lng": -75.74856424,
+              "url": "location-lifestyle-01.jpg",
+              "title": "Yoga town",
+              "bikeTime": 6,
+              "category": "lifestyle",
+              "walkTime": 17,
+              "driveTime": 4
+            },
+            {
+              "id": 2,
+              "lat": 45.26897788,
+              "lng": -75.74019427,
+              "url": "location-lifestyle-02.jpg",
+              "title": "Cineplex Theatres",
+              "bikeTime": 4,
+              "category": "lifestyle",
+              "walkTime": 9,
+              "driveTime": 3
+            },
+            {
+              "id": 3,
+              "lat": 45.26825418,
+              "lng": -75.7470086,
+              "url": "location-lifestyle-03.jpg",
+              "title": "Barrhaven Dental Care",
+              "bikeTime": 5,
+              "category": "lifestyle",
+              "walkTime": 12,
+              "driveTime": 4
+            },
+            {
+              "id": 4,
+              "lat": 45.28259265,
+              "lng": -75.76221132,
+              "url": "location-lifestyle-04.jpg",
+              "title": "Barrhaven Tennis Club",
+              "bikeTime": 12,
+              "category": "lifestyle",
+              "walkTime": 1,
+              "driveTime": 6
+            },
+            {
+              "id": 5,
+              "lat": 45.25318948,
+              "lng": -75.72247171,
+              "url": "location-lifestyle-05.jpg",
+              "title": "Stonebridge Golf Club",
+              "bikeTime": 13,
+              "category": "lifestyle",
+              "walkTime": 1,
+              "driveTime": 6
+            },
+            {
+              "id": 6,
+              "lat": 45.27981518,
+              "lng": -75.76173696,
+              "url": "location-lifestyle-06.jpg",
+              "title": "Ottawa Public Library - Ruth E. Dickinson",
+              "bikeTime": 7,
+              "category": "lifestyle",
+              "walkTime": 32,
+              "driveTime": 6
+            },
+            {
+              "id": 7,
+              "lat": "45.27180402803121, -75.740867130417",
+              "lng": "",
+              "url": "location-lifestyle-07.jpg",
+              "title": "Regal Nails, Salon & Spa (Barrhaven)",
+              "bikeTime": 3,
+              "category": "lifestyle",
+              "walkTime": 4,
+              "driveTime": 3
+            },
+            {
+              "id": 8,
+              "lat": 45.27378652,
+              "lng": -75.74667291,
+              "url": "location-lifestyle-08.jpg",
+              "title": "ICONS salon",
+              "bikeTime": 5,
+              "category": "lifestyle",
+              "walkTime": 11,
+              "driveTime": 4
+            },
+            {
+              "id": 9,
+              "lat": 45.26839552,
+              "lng": -75.74112254,
+              "url": "location-lifestyle-09.jpg",
+              "title": "exhālō spa",
+              "bikeTime": 4,
+              "category": "lifestyle",
+              "walkTime": 10,
+              "driveTime": 3
+            },
+            {
+              "id": 10,
+              "lat": 45.27484536,
+              "lng": -75.75856422,
+              "url": "location-lifestyle-10.jpg",
+              "title": "Hair by Jess",
+              "bikeTime": 9,
+              "category": "lifestyle",
+              "walkTime": 27,
+              "driveTime": 6
+            },
+            {
+              "id": 11,
+              "lat": 45.27717147,
+              "lng": -75.74845901,
+              "url": "location-lifestyle-11.jpg",
+              "title": "Orange Theory",
+              "bikeTime": 9,
+              "category": "lifestyle",
+              "walkTime": 31,
+              "driveTime": 5
+            },
+            {
+              "id": 12,
+              "lat": 45.27756196,
+              "lng": -75.74866979,
+              "url": "location-lifestyle-12.jpg",
+              "title": "Holistic Wellness Physiotherapy",
+              "bikeTime": 6,
+              "category": "lifestyle",
+              "walkTime": 17,
+              "driveTime": 4
+            }
+          ],
+          "items": []
+        },
+        {
+          "id": 24,
+          "category": "transit",
+          "mapItems": [
+            {
+              "id": 1,
+              "lat": 45.27189925,
+              "lng": -75.73793438,
+              "url": "location-transit-01.jpg",
+              "title": "Maketplace station",
+              "bikeTime": 2,
+              "category": "transit",
+              "walkTime": 5,
+              "driveTime": 1
+            },
+            {
+              "id": 2,
+              "lat": 45.27055689,
+              "lng": -75.74142391,
+              "url": "location-transit-02.jpg",
+              "title": "Marketplace riocan",
+              "bikeTime": 2,
+              "category": "transit",
+              "walkTime": 4,
+              "driveTime": 1
+            },
+            {
+              "id": 3,
+              "lat": 45.27371388,
+              "lng": -75.74500724,
+              "url": "location-transit-03.jpg",
+              "title": "Strandheard park and ride",
+              "bikeTime": 3,
+              "category": "transit",
+              "walkTime": 11,
+              "driveTime": 1
+            },
+            {
+              "id": 4,
+              "lat": 45.29927708,
+              "lng": -75.7365031,
+              "url": "location-transit-04.jpg",
+              "title": "VIA Rail Station",
+              "bikeTime": 15,
+              "category": "transit",
+              "walkTime": 1,
+              "driveTime": 9
+            }
+          ],
+          "items": []
+        },
+        {
+          "id": 21,
+          "category": "parksandtrails",
+          "mapItems": [
+            {
+              "id": 1,
+              "lat": 45.26402855,
+              "lng": -75.72472118,
+              "url": "location-parks-01.jpg",
+              "title": "Stonebridge trail",
+              "bikeTime": 11,
+              "category": "parksandtrails",
+              "walkTime": 38,
+              "driveTime": 5
+            },
+            {
+              "id": 2,
+              "lat": 45.25738953,
+              "lng": -75.7354157,
+              "url": "location-parks-02.jpg",
+              "title": "Half moon bay district park",
+              "bikeTime": 8,
+              "category": "parksandtrails",
+              "walkTime": 30,
+              "driveTime": 5
+            },
+            {
+              "id": 3,
+              "lat": 45.26566523,
+              "lng": -75.72722297,
+              "url": "location-parks-03.jpg",
+              "title": "Barcham Park",
+              "bikeTime": 7,
+              "category": "parksandtrails",
+              "walkTime": 23,
+              "driveTime": 5
+            },
+            {
+              "id": 4,
+              "lat": 45.27189633,
+              "lng": -75.72205566,
+              "url": "location-parks-04.jpg",
+              "title": "Water Dragon Park",
+              "bikeTime": 7,
+              "category": "parksandtrails",
+              "walkTime": 23,
+              "driveTime": 4
+            },
+            {
+              "id": 5,
+              "lat": 45.27499378,
+              "lng": -75.74251409,
+              "url": "location-parks-05.jpg",
+              "title": "Rodeo Park",
+              "bikeTime": 4,
+              "category": "parksandtrails",
+              "walkTime": 11,
+              "driveTime": 2
+            },
+            {
+              "id": 6,
+              "lat": 45.28253578,
+              "lng": -75.7413646,
+              "url": "location-parks-06.jpg",
+              "title": "Ken Ross Park",
+              "bikeTime": 5,
+              "category": "parksandtrails",
+              "walkTime": 16,
+              "driveTime": 3
+            },
+            {
+              "id": 7,
+              "lat": 45.26785223,
+              "lng": -75.75983169,
+              "url": "location-parks-07.jpg",
+              "title": "Houlahan Park",
+              "bikeTime": 8,
+              "category": "parksandtrails",
+              "walkTime": 23,
+              "driveTime": 5
+            },
+            {
+              "id": 8,
+              "lat": 45.26783103,
+              "lng": -75.72994362,
+              "url": "location-parks-08.jpg",
+              "title": "Foot guards Park",
+              "bikeTime": 5,
+              "category": "parksandtrails",
+              "walkTime": 17,
+              "driveTime": 3
+            },
+            {
+              "id": 9,
+              "lat": 45.27068943,
+              "lng": -75.73344266,
+              "url": "location-parks-09.jpg",
+              "title": "Mancini Park",
+              "bikeTime": 4,
+              "category": "parksandtrails",
+              "walkTime": 12,
+              "driveTime": 3
+            },
+            {
+              "id": 10,
+              "lat": 45.27725658,
+              "lng": -75.73873676,
+              "url": "location-parks-10.jpg",
+              "title": "Calaveras Park",
+              "bikeTime": 3,
+              "category": "parksandtrails",
+              "walkTime": 11,
+              "driveTime": 2
+            },
+            {
+              "id": 11,
+              "lat": 45.27279833,
+              "lng": -75.72816319,
+              "url": "location-parks-11.jpg",
+              "title": "Panda Park",
+              "bikeTime": 5,
+              "category": "parksandtrails",
+              "walkTime": 16,
+              "driveTime": 3
+            },
+            {
+              "id": 12,
+              "lat": 45.27834138,
+              "lng": -75.7616309,
+              "url": "location-parks-12.jpg",
+              "title": "Burnett Park",
+              "bikeTime": 10,
+              "category": "parksandtrails",
+              "walkTime": 31,
+              "driveTime": 6
+            }
+          ],
+          "items": []
+        },
+        {
+          "id": 32,
+          "category": "education",
+          "mapItems": [
+            {
+              "id": 1,
+              "lat": 45.27329308,
+              "lng": -75.75874512,
+              "url": "location-education-01.jpg",
+              "title": "Guide and Grow Preschool Program",
+              "bikeTime": 8,
+              "walkTime": 26,
+              "driveTime": 6
+            },
+            {
+              "id": 2,
+              "lat": 45.2713268,
+              "lng": -75.75725749,
+              "url": "location-education-02.jpg",
+              "title": "Guide and Grow Toddlers Program",
+              "bikeTime": 8,
+              "walkTime": 23,
+              "driveTime": 5
+            },
+            {
+              "id": 3,
+              "lat": 45.26331813,
+              "lng": -75.74122557,
+              "url": "location-education-03.jpg",
+              "title": "St. Joseph Catholic High School",
+              "bikeTime": 8,
+              "walkTime": 21,
+              "driveTime": 6
+            },
+            {
+              "id": 4,
+              "lat": 45.27428619,
+              "lng": -75.73942557,
+              "url": "location-education-04.jpg",
+              "title": "City View Centre",
+              "bikeTime": 3,
+              "walkTime": 7,
+              "driveTime": 4
+            },
+            {
+              "id": 5,
+              "lat": 45.27320671,
+              "lng": -75.73699647,
+              "url": "location-education-05.jpg",
+              "title": "École secondaire catholique Pierre-Savard",
+              "bikeTime": 3,
+              "walkTime": 7,
+              "driveTime": 2
+            },
+            {
+              "id": 6,
+              "lat": 45.28570347,
+              "lng": -75.73937843,
+              "url": "location-education-06.jpg",
+              "title": "St. Mother Teresa High School",
+              "bikeTime": 7,
+              "walkTime": 28,
+              "driveTime": 5
+            },
+            {
+              "id": 7,
+              "lat": 45.27051218,
+              "lng": -75.73133357,
+              "url": "location-education-07.jpg",
+              "title": "Catholic Elementary Jean-Robert-Gauthier",
+              "bikeTime": 7,
+              "walkTime": 17,
+              "driveTime": 4
+            },
+            {
+              "id": 8,
+              "lat": 45.2691401,
+              "lng": -75.73116195,
+              "url": "location-education-08.jpg",
+              "title": "Chapman Mills Public School",
+              "bikeTime": 5,
+              "walkTime": 18,
+              "driveTime": 4
+            }
+          ],
+          "items": []
+        }
+      ],
+      "orbit": {
+        "id": 6,
+        "video": "https://lepine-storage.nyc3.digitaloceanspaces.com/assets/howardgrant/orbit/Howard-Grant-Orbit.mp4",
+        "displayOrbit": false,
+        "images": [
+          "https://lepine-storage.nyc3.digitaloceanspaces.com/658ef86e367693c71f951bc99abf3434.jpg",
+          "https://lepine-storage.nyc3.digitaloceanspaces.com/ea56a7d5b643f667b1352bdf8878828f.jpg",
+          "https://lepine-storage.nyc3.digitaloceanspaces.com/505ba5347751be2918e7ba31f1cba048.jpg",
+          "https://lepine-storage.nyc3.digitaloceanspaces.com/f11ebf136ef2f028e32e63d76deb604b.jpg",
+          "https://lepine-storage.nyc3.digitaloceanspaces.com/aca9bc15d47696c959e91d2e48f30fa5.jpg"
+        ]
+      },
+      "contact": {
+        "id": 5,
+        "portalId": "22452018",
+        "formId": "5c4d743b-4398-477a-b993-3438df4da4bf",
+        "goalName": "howardgrant_property_form_submitted"
+      },
+      "meta": {
+        "id": 5,
+        "description": "Enjoy upscale living when you rent an apartment at Howard Grant. Spacious, elegant apartments in Barrhaven with exceptional amenities.",
+        "keywords": null,
+        "title": "Modern Apartment Homes for Rent in Barrhaven, ON | Howard Grant"
+      },
+      "popup": null,
+      "modelSuites": [
+        {
+          "title": "One Bedroom and Home Office",
+          "link": "https://lepineapartments.com/1814/1_bdrm_suite/index.html",
+          "copy": "This apartment boasts spacious living areas with ample natural light. The built-in home office cabinetry is perfect for working at home or exploring new hobbies and creative projects.",
+          "image": "https://lepine-storage.nyc3.digitaloceanspaces.com/6291b858bef19615ca3c3825df94c9c7.jpg"
+        },
+        {
+          "title": "One Bedroom and Family Room",
+          "link": "https://lepineapartments.com/1804/219/index.html",
+          "copy": "This model features a clever layout with a den that's perfect for those who have a young family or need extra room for grandkids or guests.",
+          "image": "https://lepine-storage.nyc3.digitaloceanspaces.com/0098c98cdc2413245789173087e9c881.png"
+        },
+        {
+          "title": "2 Bedroom",
+          "link": "https://lepineapartments.com/1804/210/index.html",
+          "copy": "A large two-bedroom apartment home with two full-sized bathrooms is perfect for young families or those hosting regular guests. The bedrooms are on opposite sides of the apartment which is perfect for roommates.",
+          "image": "https://lepine-storage.nyc3.digitaloceanspaces.com/2cb3ced3e7c6abe1fe3d939eb3805511.png"
+        },
+        {
+          "title": "2 Bed and Home Office",
+          "link": "https://lepineapartments.com/1804/222/index.html",
+          "copy": "This bungalow-sized apartment is perfect for people who are looking to avoid the hassles of house ownership but still want space to breathe. Lake-side summers and pool-side winters are in your future.",
+          "image": "https://lepine-storage.nyc3.digitaloceanspaces.com/510a30ebe7270ca53013716d31b021ba.jpg"
+        }
+      ],
+      "suiteDesignFeatures": {
+        "header": "Suite Design",
+        "items": [
+          "Open-concept layouts with space for home offices in select suites",
+          "8-foot high ceilings in bedrooms",
+          "9'-6\" high ceilings in living areas",
+          "Oversized entrance and interior doors",
+          "Panoramic windows with casement opening",
+          "Window coverings",
+          "Undermounted kitchen sinks complete with spray faucet",
+          "Barrier-free accessible design in select suites",
+          "Acrylic one-piece bath module with grab bars and curved shower rod",
+          "60-inch walk-in showers in select suites",
+          "Ceiling-mounted electrical outlets in bedrooms",
+          "Suite heat pumps for individual temperature control"
+        ],
+        "image": "https://lepine-storage.nyc3.digitaloceanspaces.com/007c0fa1d1cc9a4912cd883b3d4203cd.jpg"
+      },
+      "suiteFinishFeatures": {
+        "header": "Suite Finishes",
+        "items": [
+          "Hardwood flooring",
+          "Plush carpeting",
+          "Ceramic tile kitchen floors",
+          "Ceramic tile kitchen backsplash",
+          "Granite kitchen countertops",
+          "Natural wood kitchen cabinetry",
+          "Glazed ceilings",
+          "Eggshell finish wall paint"
+        ],
+        "pdf": "https://nyc3.digitaloceanspaces.com/lepine-storage/e03b76a07a11d263a88c724115649e9c.pdf",
+        "btnCopy": "Suite Finishes and Features",
+        "gallery": [
+          "https://lepine-storage.nyc3.digitaloceanspaces.com/a5f5ebe3b2f9e9772af0ccc52919ad6e.jpg",
+          "https://lepine-storage.nyc3.digitaloceanspaces.com/2a87bd2245ad7195199216d0c6353079.jpg",
+          "https://lepine-storage.nyc3.digitaloceanspaces.com/f6284d021f65caf9792cc2cdd60c9c83.jpg",
+          "https://lepine-storage.nyc3.digitaloceanspaces.com/d724fb4ae1a6edc68e0f65861a583f1b.jpg"
+        ]
+      },
+      "faqs": [
+        {
+          "category": "building",
+          "items": [
+            {
+              "question": "What amenities are included in my apartment rental in the building?",
+              "answer": "Residents at Howard Grant enjoy a full suite of amenities, including a fully-equipped fitness center, yoga studio, saltwater pool, sauna, games lounge, sundeck, and more. Additional conveniences include underground parking, secure storage options and beautiful [outdoor spaces](https://lepineapartments.com/newsroom/beyond-concrete-jungles) for relaxation."
+            },
+            {
+              "question": "Is the building smoke free?",
+              "answer": "Yes, all of our buildings are entirely smoke free."
+            },
+            {
+              "question": "Are pets allowed?",
+              "answer": "Yes, pets are welcome at Lépine Apartments! We welcome your furry friends, but residents must declare any pets on their application form and follow our pet policy. [Contact our leasing team](#contact) for more details on our pet policy."
+            },
+            {
+              "question": "Is parking available?",
+              "answer": "Yes, indoor heated parking and outdoor parking is available for an extra cost per month."
+            },
+            {
+              "question": "How do I schedule a tour of the apartments?",
+              "answer": "To schedule a tour of our apartments in Barrhaven, simply contact us by [contact form](#contact), phone or [email](mailto:leasing@lepineapartments.com). Our team will happily show you around the property and help you find your new rental apartment in Barrhaven."
+            }
+          ]
+        },
+        {
+          "category": "suites",
+          "items": [
+            {
+              "question": "Do you offer furnished apartments?",
+              "answer": "We currently do not offer furnished suites."
+            },
+            {
+              "question": "Do the apartments come with private outdoor space?",
+              "answer": "Select suites come with a private outdoor terrace or balcony."
+            },
+            {
+              "question": "Are utilities included in the apartment rental?",
+              "answer": "Utilities are an extra monthly cost and are metered separately for your convenience."
+            },
+            {
+              "question": "Are the apartments air conditioned?",
+              "answer": "Yes, all suites offer individual climate-controlled heat pumps."
+            },
+            {
+              "question": "What types of apartments are available at Howard Grant?",
+              "answer": "We offer a range of spacious 1-bedroom and 2-bedroom apartments, including rental apartments with dedicated home office spaces. Each suite has modern finishes and open layouts to create a comfortable, spacious living space."
+            }
+          ]
+        },
+        {
+          "category": "application",
+          "items": [
+            {
+              "question": "What is the application process like to rent an apartment?",
+              "answer": "The application process is simple! Simply give us a call and we can either walk you through it or send you a lease application form for your apartment rental in Barrhaven."
+            },
+            {
+              "question": "What is the lease term?",
+              "answer": "The minimum lease term for our apartment rentals is 12 months but many of our residents sign multi-year leases. For more details or customized lease options, [please contact our leasing office](#contact)."
+            },
+            {
+              "question": "How do I schedule a tour of the apartment?",
+              "answer": "To schedule a tour of our Barrhaven apartment rentals, simply fill out our [contact form](#contact), give us a call or [send us an email](mailto:leasing@lepineapartments.com)."
+            }
+          ]
+        },
+        {
+          "category": "location",
+          "items": [
+            {
+              "question": "What makes Barrhaven a great place to live?",
+              "answer": "Barrhaven is known for its family-friendly environment, vibrant community, and excellent amenities. With schools, parks, shopping and dining options all nearby, it’s a neighbourhood that truly has it all."
+            },
+            {
+              "question": "What is near Howard Grant?",
+              "answer": "Howard Grant is ideally situated near major shopping centers, schools, restaurants, and recreational facilities, making it an exceptional location for modern living."
+            },
+            {
+              "question": "Is Barrhaven easily accessible?",
+              "answer": "Yes, Barrhaven is well-connected by public transit and major roadways, making it easy to navigate and reach downtown Ottawa."
+            },
+            {
+              "question": "Is Barrhaven a good place to raise a family?",
+              "answer": "Absolutely! With excellent schools, safe neighbourhoods and [family-focused activities](https://lepineapartments.com/newsroom/family-friendly-living), Barrhaven is perfect for families. Our Barrhaven apartment rentals offer family-friendly living all under one roof."
+            },
+            {
+              "question": "Is Barrhaven a walkable neighbourhood?",
+              "answer": "Yes, with pedestrian-friendly streets and easy access to parks, shops and transit options, Barrhaven is ideal for walking."
+            }
+          ]
+        }
+      ],
+      "interiorGallery": null,
+      "exteriorGallery": [
+        "https://lepine-storage.nyc3.digitaloceanspaces.com/aca9bc15d47696c959e91d2e48f30fa5.jpg",
+        "https://lepine-storage.nyc3.digitaloceanspaces.com/ea56a7d5b643f667b1352bdf8878828f.jpg",
+        "https://lepine-storage.nyc3.digitaloceanspaces.com/f11ebf136ef2f028e32e63d76deb604b.jpg",
+        "https://lepine-storage.nyc3.digitaloceanspaces.com/505ba5347751be2918e7ba31f1cba048.jpg",
+        "https://lepine-storage.nyc3.digitaloceanspaces.com/658ef86e367693c71f951bc99abf3434.jpg"
+      ],
+      "amenityGallery": [
+        "https://lepine-storage.nyc3.digitaloceanspaces.com/76ecf5e711e8617c2e94a444122697c4.jpg",
+        "https://lepine-storage.nyc3.digitaloceanspaces.com/2c02be8a55919c80940e4104a8415177.jpg",
+        "https://lepine-storage.nyc3.digitaloceanspaces.com/8b25eaad657475da5490cd64feeca219.jpg",
+        "https://lepine-storage.nyc3.digitaloceanspaces.com/f647ecd67e57a9c0edcb35bcb78591e1.jpg",
+        "https://lepine-storage.nyc3.digitaloceanspaces.com/c1ee73b60e88800a0cf47039a873a411.jpg",
+        "https://lepine-storage.nyc3.digitaloceanspaces.com/fe2120e10b7caddc11f7ec982836f52a.jpg",
+        "https://lepine-storage.nyc3.digitaloceanspaces.com/01a0df455f3244ae2ea8f213d806fbb1.jpg",
+        "https://lepine-storage.nyc3.digitaloceanspaces.com/fda5cb3bc2faadcefb856864a6f9109f.jpg",
+        "https://lepine-storage.nyc3.digitaloceanspaces.com/38e4de9b8b85198e9f1070c03dc48ae5.jpg",
+        "https://lepine-storage.nyc3.digitaloceanspaces.com/246144e3eb4b768a4b9da3ce174af3fc.jpg",
+        "https://lepine-storage.nyc3.digitaloceanspaces.com/5495fc705fe084b7de77655eee9717f6.jpg",
+        "https://lepine-storage.nyc3.digitaloceanspaces.com/40b1e5b7b27ce7d8a6946f808ac83ad0.jpg",
+        "https://lepine-storage.nyc3.digitaloceanspaces.com/417da1ad4f4e410bc2286af360a12943.jpg",
+        "https://lepine-storage.nyc3.digitaloceanspaces.com/3bfab6a40cb82fa60bbd553e9c76062e.jpg",
+        "https://lepine-storage.nyc3.digitaloceanspaces.com/309a093f97207f9637af8562399fabc5.jpg",
+        "https://lepine-storage.nyc3.digitaloceanspaces.com/edef3cb97e246bb2fd84e0d037c82a69.jpg",
+        "https://lepine-storage.nyc3.digitaloceanspaces.com/ec05448c26b47449c7ed2d1bbb1683cd.jpg",
+        "https://lepine-storage.nyc3.digitaloceanspaces.com/b2d016f786d8873c7a87b6c8ce360b7f.jpg",
+        "https://lepine-storage.nyc3.digitaloceanspaces.com/3335792d5db2113816819f38be2a44c5.jpg"
+      ],
+      "global": {
+        "listings": {
+          "personas": {
+            "images": [
+              "https://lepine-storage.nyc3.digitaloceanspaces.com/9ad9a560fe4f2d52087f78414321ee68.jpg",
+              "https://lepine-storage.nyc3.digitaloceanspaces.com/a06173ba8262fed1ab56df2966e670d1.jpg",
+              "https://lepine-storage.nyc3.digitaloceanspaces.com/0921405f21090811074861d867bce51f.jpg"
+            ]
+          }
+        }
+      }
+    },
+    "city": "Barrhaven",
+    "contactInfo": {
+      "info": {
+        "id": 1,
+        "address": "555 Legget Drive, Suite 206, K2K 3B8",
+        "city": "Kanata, ON",
+        "postalCode": " ",
+        "phone": "1-888-453-7463",
+        "email": "leasing@lepineapartments.com",
+        "corporatePhone": "613-591-9090",
+        "hours": {
+          "id": 1,
+          "weekday": "Open for walk-ins",
+          "weekend": "Open for walk-ins"
+        }
+      }
+    },
+    "posts": [
+      {
+        "title": "A New Chapter Begins: Johanne’s Gardens Officially Opens in Carleton Place ",
+        "date": "2025-11-03",
+        "preview": "Under a clear autumn sky, Lépine proudly celebrated the official opening of Johanne’s Gardens — a landmark moment marking the continued growth of our communities in the Ottawa Valley. ",
+        "slug": "johannes-gardens-officially-opens-in-carleton-place",
+        "author": {
+          "name": "Allison Muise",
+          "title": "Lifestyle Specialist",
+          "image": "https://lepine-storage.nyc3.digitaloceanspaces.com/01dce7ca58ca216c5a16760c57f71fcd.jpg"
+        },
+        "categories": ["Events", "Lifestyle"],
+        "images": {
+          "thumbnail": "https://lepine-storage.nyc3.digitaloceanspaces.com/d74c7bbdcf7a52fdeff4138672a692fe.jpg"
+        }
+      },
+      {
+        "title": "Renting vs. Buying: A Closer Look at the Initial Costs ",
+        "date": "2025-10-16",
+        "preview": "There’s a long-standing belief that buying a home is the ultimate financial goal. But what often gets overlooked is the significant upfront cost that comes with homeownership.",
+        "slug": "renting-vs-buying-a-closer-look-at-the-initial-costs",
+        "author": {
+          "name": "Allison Muise",
+          "title": "Lifestyle Specialist",
+          "image": "https://lepine-storage.nyc3.digitaloceanspaces.com/01dce7ca58ca216c5a16760c57f71fcd.jpg"
+        },
+        "categories": ["Lifestyle"],
+        "images": {
+          "thumbnail": "https://lepine-storage.nyc3.digitaloceanspaces.com/958df1737641f6f39cdbe5df1dd6c490.png"
+        }
+      },
+      {
+        "title": "Creating Proud Traditions: Lépine Apartments Presents the PGA TOUR Americas Commissionaires Ottawa Open",
+        "date": "2025-09-15",
+        "preview": "This summer, Lépine Apartments made our debut as the presenting sponsor of the PGA TOUR Americas Commissionaires Ottawa Open. The 2025 edition took place from July 21 to 27 at the sprawling Eagle Creek Golf Club in Dunrobin.",
+        "slug": "2025-pga-commissionaires-ottawa-open",
+        "author": {
+          "name": "Allison Muise",
+          "title": "Lifestyle Specialist",
+          "image": "https://lepine-storage.nyc3.digitaloceanspaces.com/01dce7ca58ca216c5a16760c57f71fcd.jpg"
+        },
+        "categories": ["Sponsorships", "Events"],
+        "images": {
+          "thumbnail": "https://lepine-storage.nyc3.digitaloceanspaces.com/c34d873edb5f7287a19cfe0968844cfb.jpg"
+        }
+      },
+      {
+        "title": "Canada Strong: Building on Decades of Buying Local",
+        "date": "2025-08-08",
+        "preview": "Since our beginnings more than 60 years ago, Lépine Apartments has always been proudly Canadian. As a family-owned business, we understand the value of a good home—from the space we return to each night, to the country we all share.",
+        "slug": "building-on-decades-of-buying-local",
+        "author": {
+          "name": "Kevin Tomas",
+          "title": "VP of Construction",
+          "image": "https://lepine-storage.nyc3.digitaloceanspaces.com/319ef8e1a7de64a49f33a0bd3a1f9eef.jpg"
+        },
+        "categories": [],
+        "images": {
+          "thumbnail": "https://lepine-storage.nyc3.digitaloceanspaces.com/fad05ff0ecf450538897a4aa58ae55b5.png"
+        }
+      },
+      {
+        "title": "Renting Vs Buying: Why More Young Adults Are Choosing to Rent Rather Than Getting a Mortgage",
+        "date": "2025-07-16",
+        "preview": "We explore why many young adults are choosing to rent from a landlord instead of renting a house from the bank through a mortgage interest.",
+        "slug": "renting-vs-buying",
+        "author": {
+          "name": "William Lépine",
+          "title": "Director of Business Operations",
+          "image": "https://lepine-storage.nyc3.digitaloceanspaces.com/26eefbb1e6626e0d73f757f2a89cd8d5.jpg"
+        },
+        "categories": ["Lifestyle"],
+        "images": {
+          "thumbnail": "https://lepine-storage.nyc3.digitaloceanspaces.com/1ce04ce5ac1b59f8a0da2eed5f628ffc.jpg"
+        }
+      },
+      {
+        "title": "Bungalow Sized Apartments for Rent in Greater Ottawa",
+        "date": "2025-06-09",
+        "preview": "Whether you’re an empty nester looking for a change of pace, or a young professional not ready to jump into the homeowners market quite yet, you have more options than ever with spacious Lépine rental apartments popping up all around Greater Ottawa in Kanata, Carleton Place, Smiths Falls, Renfrew and more!",
+        "slug": "bungalow-sized-apartments",
+        "author": {
+          "name": "William Lépine",
+          "title": "Director of Business Operations",
+          "image": "https://lepine-storage.nyc3.digitaloceanspaces.com/26eefbb1e6626e0d73f757f2a89cd8d5.jpg"
+        },
+        "categories": ["Lifestyle"],
+        "images": {
+          "thumbnail": "https://lepine-storage.nyc3.digitaloceanspaces.com/38f2b7b2471e630bcadd28960ab5ffb4.jpg"
+        }
+      },
+      {
+        "title": "Why Rent a Lépine Apartment?",
+        "date": "2025-05-17",
+        "preview": "Apartment homes are popping up all over the Ottawa area and are offering an upgraded lifestyle to those who want to enjoy the comforts of home without the hassle or financial hurdles of homeownership.",
+        "slug": "why-rent-a-lepine-apartment",
+        "author": {
+          "name": "William Lépine",
+          "title": "Director of Business Operations",
+          "image": "https://lepine-storage.nyc3.digitaloceanspaces.com/26eefbb1e6626e0d73f757f2a89cd8d5.jpg"
+        },
+        "categories": ["Lifestyle"],
+        "images": {
+          "thumbnail": "https://lepine-storage.nyc3.digitaloceanspaces.com/203e7939f29fb5bb8c721af9539b5643.jpg"
+        }
+      },
+      {
+        "title": "Empowering Northern Communities",
+        "date": "2025-04-11",
+        "preview": "Les Terrasses Francesca was built on land that had formerly belonged to the Franciscan Missionaries of Mary, a former convent. ",
+        "slug": "empowering-northern-communities",
+        "author": {
+          "name": "Ian Kennedy",
+          "title": "Director of Design",
+          "image": "https://lepine-storage.nyc3.digitaloceanspaces.com/6085c1d9ab1cf5224b1f170ead69ce88.jpg"
+        },
+        "categories": ["Sustainability", "Sponsorships"],
+        "images": {
+          "thumbnail": "https://lepine-storage.nyc3.digitaloceanspaces.com/a2e37ec037c596dc6b0b478d3e44f91f.jpg"
+        }
+      },
+      {
+        "title": "Sponsoring Champions: Lépine Partners with Wheelchair Basketball Canada’s Schools Program",
+        "date": "2025-03-07",
+        "preview": "Lépine proudly sponsors Wheelchair Basketball Canada’s Schools Program, promoting inclusion, accessibility, and careers in the trades for youth across Ontario.",
+        "slug": "sponsoring-champions-lepine-partners-with-wheelchair-basketball-canadas-schools-program",
+        "author": {
+          "name": "Allison Muise",
+          "title": "Lifestyle Specialist",
+          "image": "https://lepine-storage.nyc3.digitaloceanspaces.com/01dce7ca58ca216c5a16760c57f71fcd.jpg"
+        },
+        "categories": ["Events"],
+        "images": {
+          "thumbnail": "https://lepine-storage.nyc3.digitaloceanspaces.com/f8ae92257d07e319e2836b0fa867ce8f.jpg"
+        }
+      },
+      {
+        "title": "Maximize the value you get for your money when you rent a Lépine Apartment",
+        "date": "2025-01-09",
+        "preview": "While many real estate companies are increasing prices, Lépine stands out by increasing value for your money. Here are five ways a modern apartment builder like Lépine adds value to the lives of their residents.",
+        "slug": "maximize-the-value",
+        "author": {
+          "name": "William Lépine",
+          "title": "Director of Business Operations",
+          "image": "https://lepine-storage.nyc3.digitaloceanspaces.com/26eefbb1e6626e0d73f757f2a89cd8d5.jpg"
+        },
+        "categories": ["Lifestyle"],
+        "images": {
+          "thumbnail": "https://lepine-storage.nyc3.digitaloceanspaces.com/99cf4b6def7a2e6be9b32b05bb47dd90.jpg"
+        }
+      },
+      {
+        "title": "Family-Friendly Living: Exploring Lépine Apartments' Amenities",
+        "date": "2024-12-06",
+        "preview": "Finding the perfect home for your family involves more than just square footage and location—it's about creating a nurturing environment where your children can thrive and make lasting memories.",
+        "slug": "family-friendly-living",
+        "author": {
+          "name": "Allison Muise",
+          "title": "Lifestyle Specialist",
+          "image": "https://lepine-storage.nyc3.digitaloceanspaces.com/01dce7ca58ca216c5a16760c57f71fcd.jpg"
+        },
+        "categories": ["Lifestyle"],
+        "images": {
+          "thumbnail": "https://lepine-storage.nyc3.digitaloceanspaces.com/9be8a5a9cbece86ebf70f313005983e7.jpg"
+        }
+      },
+      {
+        "title": "The Future’s Much Brighter When You Rent ",
+        "date": "2024-11-13",
+        "preview": "In the race of Canadian real estate, many hardworking families find themselves stranded, feeling the opportunity for homeownership slipping out of reach. Families shouldn’t have to risk their hard-earned capital on unsuitable homes just to meet societal standards. Affordable family-sized rentals exist in Ottawa’s most desired neighborhoods, ensuring families can live comfortably today while investing in their future dreams. ",
+        "slug": "brighter-when-you-rent",
+        "author": {
+          "name": "William Lépine",
+          "title": "Director of Business Operations",
+          "image": "https://lepine-storage.nyc3.digitaloceanspaces.com/26eefbb1e6626e0d73f757f2a89cd8d5.jpg"
+        },
+        "categories": ["Lifestyle"],
+        "images": {
+          "thumbnail": "https://lepine-storage.nyc3.digitaloceanspaces.com/107debf02a90d717307e988a6ba97d99.jpg"
+        }
+      },
+      {
+        "title": "Capital Gains - How to Optimize Real Estate Investments!",
+        "date": "2024-07-10",
+        "preview": "The recent federal budget announcement includes a significant change to the capital gains inclusion rate, which has increased from 50% to 66.6%. This presents a unique opportunity for real estate owners.",
+        "slug": "optimize-your-real-estate-investments",
+        "author": {
+          "name": "William Lépine",
+          "title": "Director of Business Operations",
+          "image": "https://lepine-storage.nyc3.digitaloceanspaces.com/26eefbb1e6626e0d73f757f2a89cd8d5.jpg"
+        },
+        "categories": ["Lifestyle"],
+        "images": {
+          "thumbnail": "https://lepine-storage.nyc3.digitaloceanspaces.com/bad3902d04eefa87f2c1d93aa9c65435.jpg"
+        }
+      },
+      {
+        "title": "Breaking Barriers on the Slopes: Lépine Apartments' Support for Canadian Adaptive Disabled Snowsports (CADS)",
+        "date": "2024-05-10",
+        "preview": "Lépine Apartments has always believed in a hands-on approach to business and charitable endeavors. It comes as no surprise that many of the company's philanthropic ventures have a personal connection. When choosing charitable initiatives, Lépine Apartments prioritizes causes that resonate with their values and experiences. That's why the decision to join Canadian Adaptive Disabled Snowsports (CADS) in their efforts to provide people with physical challenges the chance to experience the joys of winter sports without barriers was an easy one.\n",
+        "slug": "breaking-barriers-on-the-slopes",
+        "author": {
+          "name": "William Lépine",
+          "title": "Director of Business Operations",
+          "image": "https://lepine-storage.nyc3.digitaloceanspaces.com/26eefbb1e6626e0d73f757f2a89cd8d5.jpg"
+        },
+        "categories": ["Sponsorships"],
+        "images": {
+          "thumbnail": "https://lepine-storage.nyc3.digitaloceanspaces.com/e7de1529c73057402a7c4f0f725d75ea.jpg"
+        }
+      },
+      {
+        "title": "Sarah's Story of Freedom and Flexibility at Lépine",
+        "date": "2024-02-02",
+        "preview": "When Sarah first set out on her own, the social pressures to buy a house were immense. It seemed like homeownership was the ultimate goal, acting as a symbol of stability and future financial success. More young people have begun to question this narrative, including Sarah. ",
+        "slug": "sarahs-story-of-freedom-and-flexibility-at-lepine",
+        "author": {
+          "name": "William Lépine",
+          "title": "Director of Business Operations",
+          "image": "https://lepine-storage.nyc3.digitaloceanspaces.com/26eefbb1e6626e0d73f757f2a89cd8d5.jpg"
+        },
+        "categories": ["Lifestyle"],
+        "images": {
+          "thumbnail": "https://lepine-storage.nyc3.digitaloceanspaces.com/0ffe52df6e59c35101133df6fb6cb109.jpg"
+        }
+      },
+      {
+        "title": "She Chose Freedom and Flexibility",
+        "date": "2023-12-10",
+        "preview": "When I first set out on my own, the social pressure to buy a house was immense. It was understood that homeownership was the ultimate goal, a symbol of stability and future financial success. But I questioned this narrative.",
+        "slug": "she-chose-freedom-and-flexibility",
+        "author": {
+          "name": "William Lépine",
+          "title": "Director of Business Operations",
+          "image": "https://lepine-storage.nyc3.digitaloceanspaces.com/26eefbb1e6626e0d73f757f2a89cd8d5.jpg"
+        },
+        "categories": ["Lifestyle"],
+        "images": {
+          "thumbnail": "https://lepine-storage.nyc3.digitaloceanspaces.com/cf1e9837b772733b01d9afbad163a039.jpg"
+        }
+      },
+      {
+        "title": "Honouring Our Armed Forces Veterans",
+        "date": "2023-11-11",
+        "preview": "Canadian Armed Forces (CAF) veterans demonstrate to us the epitome of courage, altruism, leadership, integrity and perseverance.",
+        "slug": "honouring-our-armed-forces-veterans",
+        "author": {
+          "name": "William Lépine",
+          "title": "Director of Business Operations",
+          "image": "https://lepine-storage.nyc3.digitaloceanspaces.com/26eefbb1e6626e0d73f757f2a89cd8d5.jpg"
+        },
+        "categories": ["Sponsorships"],
+        "images": {
+          "thumbnail": "https://lepine-storage.nyc3.digitaloceanspaces.com/f62818d56dbbbf2ad3bf04d225790012.jpg"
+        }
+      },
+      {
+        "title": "Built to Last. Built for Life",
+        "date": "2023-10-11",
+        "preview": "Lépine’s premium apartment homes are built and designed with sustainability and efficiency in mind.",
+        "slug": "built-to-last-built-for-life",
+        "author": {
+          "name": "Kevin Tomas",
+          "title": "VP of Construction",
+          "image": "https://lepine-storage.nyc3.digitaloceanspaces.com/319ef8e1a7de64a49f33a0bd3a1f9eef.jpg"
+        },
+        "categories": ["Sustainability"],
+        "images": {
+          "thumbnail": "https://lepine-storage.nyc3.digitaloceanspaces.com/abb6d591b816edb883a885860a74aec8.jpg"
+        }
+      },
+      {
+        "title": "Helping All Canadians Realize the Benefits of Sport",
+        "date": "2023-08-08",
+        "preview": "Francis Lépine has always used an extremely hands-on approach in business, so it should come with no surprise that many of our charitable ventures have a personal connection.",
+        "slug": "helping-all-canadians-realize-the-benefits-of-sport",
+        "author": {
+          "name": "William Lépine",
+          "title": "Director of Business Operations",
+          "image": "https://lepine-storage.nyc3.digitaloceanspaces.com/26eefbb1e6626e0d73f757f2a89cd8d5.jpg"
+        },
+        "categories": ["Lifestyle", "Sponsorships"],
+        "images": {
+          "thumbnail": "https://lepine-storage.nyc3.digitaloceanspaces.com/4cbc939b09ff5df63aa26bd38e9038da.jpg"
+        }
+      },
+      {
+        "title": "Restoring Camp Otonabee",
+        "date": "2023-07-20",
+        "preview": "Since 1952, children and youth have been enjoying the beautiful outdoors along the Ottawa River at Camp Otonabee.",
+        "slug": "restoring-camp-otonabee",
+        "author": {
+          "name": "Kevin Tomas",
+          "title": "VP of Construction",
+          "image": "https://lepine-storage.nyc3.digitaloceanspaces.com/319ef8e1a7de64a49f33a0bd3a1f9eef.jpg"
+        },
+        "categories": ["Sponsorships"],
+        "images": {
+          "thumbnail": "https://lepine-storage.nyc3.digitaloceanspaces.com/2c15b70b004164000ebc97e8f20a5f16.jpg"
+        }
+      },
+      {
+        "title": "Protecting Our Urban Forests",
+        "date": "2023-05-10",
+        "preview": "Maintaining and growing our urban forests is essential for a healthy city.",
+        "slug": "protecting-our-urban-forests",
+        "author": {
+          "name": "Ian Kennedy",
+          "title": "Director of Design",
+          "image": "https://lepine-storage.nyc3.digitaloceanspaces.com/6085c1d9ab1cf5224b1f170ead69ce88.jpg"
+        },
+        "categories": ["Sustainability"],
+        "images": {
+          "thumbnail": "https://lepine-storage.nyc3.digitaloceanspaces.com/4b60b69d813cb48efb74da1f88c54b91.jpg"
+        }
+      },
+      {
+        "title": "Energy Efficient at Home: Lépine Apartments Optimize Your Life",
+        "date": "2023-04-22",
+        "preview": "Lépine Apartments has more than 60 years’ experience designing luxury rental buildings. We know what works and what provides the optimal living experience for our residents.",
+        "slug": "why-you-should-consider-energy-efficiency-when-apartment-hunting",
+        "author": {
+          "name": "Ian Kennedy",
+          "title": "Director of Design",
+          "image": "https://lepine-storage.nyc3.digitaloceanspaces.com/6085c1d9ab1cf5224b1f170ead69ce88.jpg"
+        },
+        "categories": ["Sustainability"],
+        "images": {
+          "thumbnail": "https://lepine-storage.nyc3.digitaloceanspaces.com/573450f5ebf158e0aa86f130e496d48b.jpg"
+        }
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Jude and Yvonne",
+        "description": "Happy Tenant",
+        "copy": "We were just starstruck by the place. It’s so quiet and safe. It’s a good space, we’ve got two bedrooms and an office. It’s really convenient and comfortable! They’ve got a full sized gym which is kind of awesome. You really get to relax and do the things that you really like within the building. We finally have a place to call our own!",
+        "image": "https://lepine-storage.nyc3.digitaloceanspaces.com/b16f65e859fad13820b91e6b3817bfc0.jpg",
+        "video": "https://www.youtube.com/embed/0dB3rsC4iL0?autoplay=1"
+      },
+      {
+        "name": "Leslie and Rick",
+        "description": "Happy Tenants",
+        "copy": "It was just the perfect time for us. I didn’t enjoy the driveway anymore; I hated the grass. Living at Lepine gives you so much more time and freedom. We can’t wipe the smiles off our faces!",
+        "image": "https://lepine-storage.nyc3.digitaloceanspaces.com/231990cb09aef51597a44decc97a588c.jpg",
+        "video": "https://www.youtube.com/embed/KPSYZM9CPOQ?autoplay=1"
+      },
+      {
+        "name": "John and Christine",
+        "description": "Happy Tenants",
+        "copy": "I’ve been a homeowner since I was 23 years old. I didn’t want to do the same thing; look after a house for ever and ever. I wanted to travel a little more, I just wanted some freedom, and now I get to choose what I want to do not what I have to do.",
+        "image": "https://lepine-storage.nyc3.digitaloceanspaces.com/c8a3974f783ae11639d1fc8629eb04b6.jpg",
+        "video": "https://www.youtube.com/embed/lTBGt1ozhfM?autoplay=1"
+      },
+      {
+        "name": "Orville and Claudette",
+        "description": "Happy Tenants",
+        "copy": "Our family consists of 21 children and grandchildren. Our new suite is big enough to have everyone over at once, it’s amazing!",
+        "image": "https://lepine-storage.nyc3.digitaloceanspaces.com/b95cc04014b203b24f004dcadf49d717.jpg",
+        "video": null
+      },
+      {
+        "name": "Stephanie",
+        "description": "A Happy Tenant",
+        "copy": "We wanted to save while living in something fancier than a standard apartment.  This is condo-style living. Life is much simpler when everything is either close by or included in our rent.",
+        "image": "https://lepine-storage.nyc3.digitaloceanspaces.com/d6cb027c82d9e053e80f9af0b71043d4.jpg",
+        "video": null
+      },
+      {
+        "name": "Coco and Sylvia",
+        "description": "Happy Tenants",
+        "copy": "It’s like living in a luxury resort here! A vacation always ends, but when we come home from travelling it feels like we’ve just extended our vacation to a different resort!",
+        "image": "https://lepine-storage.nyc3.digitaloceanspaces.com/11fcf12283682712f574ed120be3b5ce.jpg",
+        "video": null
+      },
+      {
+        "name": "Larry and Diane",
+        "description": "Happy Tenants",
+        "copy": "If we had known earlier that this type of product existed in Ottawa, we wouldn’t have tried to keep our house for as long as we did!",
+        "image": "https://lepine-storage.nyc3.digitaloceanspaces.com/628f9d5a7a7734db2fe24eb8d5bc58c9.jpg",
+        "video": null
+      }
+    ],
+    "contactUs": {
+      "id": 1,
+      "header": "Rent Today",
+      "subtitle": "Get in touch with a Lepine Specialist Today",
+      "copy": "Book a viewing, request information or reach out to request an application form.",
+      "images": {
+        "data": [
+          {
+            "id": 79,
+            "attributes": {
+              "name": "img-contactus-01.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 640,
+              "height": 499,
+              "formats": {
+                "small": {
+                  "ext": ".jpg",
+                  "url": "https://lepine-storage.nyc3.digitaloceanspaces.com/fcebe8bf583675ff88473381f2e2cd0a.jpg",
+                  "hash": "fcebe8bf583675ff88473381f2e2cd0a",
+                  "mime": "image/jpeg",
+                  "name": "small_img-contactus-01.jpg",
+                  "path": null,
+                  "size": 25.31,
+                  "width": 500,
+                  "height": 390
+                },
+                "thumbnail": {
+                  "ext": ".jpg",
+                  "url": "https://lepine-storage.nyc3.digitaloceanspaces.com/377d67ed0010f6776152cace3c280f2e.jpg",
+                  "hash": "377d67ed0010f6776152cace3c280f2e",
+                  "mime": "image/jpeg",
+                  "name": "thumbnail_img-contactus-01.jpg",
+                  "path": null,
+                  "size": 6.92,
+                  "width": 200,
+                  "height": 156
+                }
+              },
+              "hash": "7058e6c3968316696f6fe1102cf09b7d",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 35.76,
+              "url": "https://lepine-storage.nyc3.digitaloceanspaces.com/7058e6c3968316696f6fe1102cf09b7d.jpg",
+              "previewUrl": null,
+              "provider": "strapi-provider-upload-do",
+              "provider_metadata": null,
+              "createdAt": "2023-02-14T16:24:03.595Z",
+              "updatedAt": "2023-02-14T16:24:03.595Z"
+            }
+          },
+          {
+            "id": 1210,
+            "attributes": {
+              "name": "6c0d7de5262dfcb3e93b710422f8c54d.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 599,
+              "height": 715,
+              "formats": {
+                "small": {
+                  "ext": ".jpg",
+                  "url": "https://lepine-storage.nyc3.digitaloceanspaces.com/14fb70f5fd325157c000f48922047963.jpg",
+                  "hash": "14fb70f5fd325157c000f48922047963",
+                  "mime": "image/jpeg",
+                  "name": "small_6c0d7de5262dfcb3e93b710422f8c54d.jpg",
+                  "path": null,
+                  "size": 29.34,
+                  "width": 419,
+                  "height": 500
+                },
+                "thumbnail": {
+                  "ext": ".jpg",
+                  "url": "https://lepine-storage.nyc3.digitaloceanspaces.com/325ac73e6fcef4d0eebaf17bdb497a27.jpg",
+                  "hash": "325ac73e6fcef4d0eebaf17bdb497a27",
+                  "mime": "image/jpeg",
+                  "name": "thumbnail_6c0d7de5262dfcb3e93b710422f8c54d.jpg",
+                  "path": null,
+                  "size": 5.08,
+                  "width": 131,
+                  "height": 156
+                }
+              },
+              "hash": "40bac70fb2fe8ebf77afefa2df04f4fb",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 50.04,
+              "url": "https://lepine-storage.nyc3.digitaloceanspaces.com/40bac70fb2fe8ebf77afefa2df04f4fb.jpg",
+              "previewUrl": null,
+              "provider": "strapi-provider-upload-do",
+              "provider_metadata": null,
+              "createdAt": "2023-11-16T17:11:06.819Z",
+              "updatedAt": "2023-11-16T17:11:06.819Z"
+            }
+          }
+        ]
+      }
+    },
+    "leasingSteps": {
+      "stepOne": "Fill out the form below to schedule a personal tour",
+      "stepTwo": "Tour the property and lease a new apartment that fits your lifestyle",
+      "stepThree": "Plan your move and set a move-in date that works best for you",
+      "createdAt": "2023-02-14T18:15:57.645Z",
+      "updatedAt": "2024-11-04T17:29:58.583Z",
+      "header": "Your Peace of Mind Is Top of Mind",
+      "copy": "Finding a new home should be an experience full of excitement and anticipation. However, shopping to compare value for money can be daunting. The Lepine leasing process is consultative and transparent and lets you make decisions at your own pace. We'll help you understand all your options, help you plan your move, and will be on hand to ensure your move-in goes as smoothly as possible. We give the same care and attention to your home as we do to our own because we own and operate our apartments. You will feel at home and carefree when you live in a Lépine apartment.",
+      "steps": [
+        {
+          "id": 1,
+          "item": "Fill out the form below to schedule a personal tour"
+        },
+        {
+          "id": 2,
+          "item": "Shop and compare your options and lease a new apartment that fits your lifestyle"
+        },
+        {
+          "id": 3,
+          "item": "Schedule your lease start date to match your moving plans and live carefree"
+        }
+      ],
+      "image": {
+        "data": {
+          "id": 1247,
+          "attributes": {
+            "name": "img-1,2,3steps.png",
+            "alternativeText": null,
+            "caption": null,
+            "width": 893,
+            "height": 907,
+            "formats": {
+              "small": {
+                "ext": ".png",
+                "url": "https://lepine-storage.nyc3.digitaloceanspaces.com/91d5422c27a2d52e9ab2e19fdd698216.png",
+                "hash": "91d5422c27a2d52e9ab2e19fdd698216",
+                "mime": "image/png",
+                "name": "small_img-1,2,3steps.png",
+                "path": null,
+                "size": 473.49,
+                "width": 492,
+                "height": 500
+              },
+              "medium": {
+                "ext": ".png",
+                "url": "https://lepine-storage.nyc3.digitaloceanspaces.com/27c231aa5cfca34543bf20e95007bea5.png",
+                "hash": "27c231aa5cfca34543bf20e95007bea5",
+                "mime": "image/png",
+                "name": "medium_img-1,2,3steps.png",
+                "path": null,
+                "size": 1007.3,
+                "width": 738,
+                "height": 750
+              },
+              "thumbnail": {
+                "ext": ".png",
+                "url": "https://lepine-storage.nyc3.digitaloceanspaces.com/657045b9b6a40d5b5b30992d863cd9e0.png",
+                "hash": "657045b9b6a40d5b5b30992d863cd9e0",
+                "mime": "image/png",
+                "name": "thumbnail_img-1,2,3steps.png",
+                "path": null,
+                "size": 54.9,
+                "width": 154,
+                "height": 156
+              }
+            },
+            "hash": "e20e0edc44ce5f492323d7d4a53ea852",
+            "ext": ".png",
+            "mime": "image/png",
+            "size": 287.12,
+            "url": "https://lepine-storage.nyc3.digitaloceanspaces.com/e20e0edc44ce5f492323d7d4a53ea852.png",
+            "previewUrl": null,
+            "provider": "strapi-provider-upload-do",
+            "provider_metadata": null,
+            "createdAt": "2023-11-20T17:08:54.434Z",
+            "updatedAt": "2023-11-20T17:08:54.434Z"
+          }
+        }
+      }
+    },
+    "featuredListings": [
+      {
+        "id": 1024202,
+        "unitType": "Two Bedroom + Den",
+        "sqftRange": "1400-1699",
+        "outdoorSpace": "Terrace",
+        "unitId": "202",
+        "sqft": 1496,
+        "price": 4018,
+        "numOfBeds": 2,
+        "numOfBaths": 2,
+        "balcony": false,
+        "tub": true,
+        "pantry": true,
+        "terrace": true,
+        "officeDen": true,
+        "walkInCloset": false,
+        "barrierFree": false,
+        "property": "howardgrant",
+        "createdAt": "2024-01-26T18:09:19.970Z",
+        "updatedAt": "2024-02-28T15:03:03.648Z",
+        "onHoldExpires": null,
+        "status": "Occupied",
+        "image": "1024_UNIT_202.png",
+        "pdf": "1024_UNIT_202.pdf",
+        "type": "2BR+D+T",
+        "builtIns": false,
+        "juliet": false,
+        "modelSuite": false,
+        "model": "",
+        "isFeatured": true
+      },
+      {
+        "id": 1024301,
+        "unitType": "Two Bedroom + Den",
+        "sqftRange": "1400-1699",
+        "outdoorSpace": "Balcony",
+        "unitId": "301",
+        "sqft": 1507,
+        "price": 3315,
+        "numOfBeds": 2,
+        "numOfBaths": 2,
+        "balcony": true,
+        "tub": true,
+        "pantry": true,
+        "terrace": false,
+        "officeDen": true,
+        "walkInCloset": false,
+        "barrierFree": false,
+        "property": "howardgrant",
+        "createdAt": "2024-01-26T18:09:20.159Z",
+        "updatedAt": "2024-02-28T15:03:03.866Z",
+        "onHoldExpires": null,
+        "status": "Occupied",
+        "image": "1024_UNIT_301-1701.png",
+        "pdf": "1024_UNIT_301-1701.pdf",
+        "type": "2BR+D+B",
+        "builtIns": false,
+        "juliet": false,
+        "modelSuite": false,
+        "model": "",
+        "isFeatured": true
+      },
+      {
+        "id": 1024107,
+        "unitType": "Two Bedroom + Den",
+        "sqftRange": "1000-1399",
+        "outdoorSpace": "Terrace",
+        "unitId": "107",
+        "sqft": 1395,
+        "price": 4195,
+        "numOfBeds": 2,
+        "numOfBaths": 2,
+        "balcony": false,
+        "tub": true,
+        "pantry": true,
+        "terrace": true,
+        "officeDen": true,
+        "walkInCloset": false,
+        "barrierFree": false,
+        "property": "howardgrant",
+        "createdAt": "2024-01-26T18:09:19.923Z",
+        "updatedAt": "2024-02-28T15:04:24.323Z",
+        "onHoldExpires": "2024-02-23T15:32:52.375Z",
+        "status": "Vacant",
+        "image": "1024_UNIT_107.png",
+        "pdf": "1024_UNIT_107-family.pdf",
+        "type": "2BR+D+T",
+        "builtIns": false,
+        "juliet": false,
+        "modelSuite": false,
+        "model": "",
+        "isFeatured": true
+      },
+      {
+        "id": 1024315,
+        "unitType": "Two Bedroom",
+        "sqftRange": "1000-1399",
+        "outdoorSpace": "Balcony",
+        "unitId": "315",
+        "sqft": 1295,
+        "price": 3246,
+        "numOfBeds": 2,
+        "numOfBaths": 2,
+        "balcony": true,
+        "tub": true,
+        "pantry": true,
+        "terrace": false,
+        "officeDen": false,
+        "walkInCloset": false,
+        "barrierFree": false,
+        "property": "howardgrant",
+        "createdAt": "2024-01-26T18:09:20.338Z",
+        "updatedAt": "2024-02-28T15:03:04.053Z",
+        "onHoldExpires": null,
+        "status": "Occupied",
+        "image": "1024_UNIT_315-515.png",
+        "pdf": "1024_UNIT_315-515.pdf",
+        "type": "2BR+B",
+        "builtIns": false,
+        "juliet": false,
+        "modelSuite": false,
+        "model": "",
+        "isFeatured": true
+      }
+    ],
+    "siblingProperties": [],
+    "instagramPosts": [
+      {
+        "id": "18084645436986811",
+        "media_type": "VIDEO",
+        "media_url": "https://scontent.cdninstagram.com/o1/v/t2/f2/m86/AQPj0LUDGCw0D_YzS8DcXl9_x2J7wL0bfdAe1Xh6QNMCQJ3QAunhKI3qBDBhWA9EOertDB2GCxt2d77P5BO2gMX0VDUJ0Dlh12blXMQ.mp4?_nc_cat=107&_nc_sid=5e9851&_nc_ht=scontent.cdninstagram.com&_nc_ohc=19pv4ymGL6QQ7kNvwGlpuKr&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuMTI3Ni5kYXNoX2Jhc2VsaW5lXzFfdjEiLCJ4cHZfYXNzZXRfaWQiOjc5Njk0MTQ5MzEzMDgwMiwiYXNzZXRfYWdlX2RheXMiOjAsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjo4NiwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=4e37bd5420965a8b&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC81RDRBMUM3QkVDMTVDM0M2MzZFOTg3NzNFQUEyRkJBN192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYOnBhc3N0aHJvdWdoX2V2ZXJzdG9yZS9HSXRkWWlLUkg2N2pBMzRGQUduY0R0bWdYWGh3YnN0VEFRQUYVAgLIARIAKAAYABsCiAd1c2Vfb2lsATEScHJvZ3Jlc3NpdmVfcmVjaXBlATEVAAAm5NjW6Yy06gIVAigCQzMsF0BVoAAAAAAAGBJkYXNoX2Jhc2VsaW5lXzFfdjERAHX-B2XmnQEA&_nc_gid=cv5TDQ2B2pqIx4aCUK9VAQ&edm=AM6HXa8EAAAA&_nc_zt=28&oh=00_AfiHjbvmWcLEYayUAWxu_aMuHO95iXxR4jJngn5gPOKSUw&oe=69101E28",
+        "username": "lepineapartments",
+        "timestamp": "2025-11-06T18:03:13+0000",
+        "caption": "We’re proud to see our brand ambassador, Drake Batherson sit down with Ian Mendes and Jackson Starr on the NHL Absolute Non-Sens Podcast to share his experience behind the scenes during the filming of our commercials!\n\nIt’s always great to see our partnerships come to life through genuine stories and shared laughs.\n\n#OttawaSenators #Senators #DrakeBatherson #Ottawa #OttawaApartments #ApartmentRentals",
+        "permalink": "https://www.instagram.com/reel/DQuW4LGgKTI/",
+        "thumbnail_url": "https://scontent.cdninstagram.com/v/t51.71878-15/573700182_1372505757605662_7679203140458631186_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=1-7&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=_LBeQf_ke5wQ7kNvwFOFf8P&_nc_oc=Admmbws1evUU7eG4kNMP91QrayQBVec3aePeO6F8r_TstVIwQoTkomYKvlnYs_CeGhc&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=cv5TDQ2B2pqIx4aCUK9VAQ&oh=00_AfjDBFc6CZg343lfKkhF5rwS4hchDVn-lji-EUh2YVIZmQ&oe=6913F718"
+      },
+      {
+        "id": "17928220071118552",
+        "media_type": "CAROUSEL_ALBUM",
+        "media_url": "https://scontent.cdninstagram.com/v/t39.30808-6/576911195_796997503325962_3971504358390580027_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ccb=1-7&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=XqQ3UQ9EnWIQ7kNvwG31jd6&_nc_oc=Adkfj_kgFzGYgzwJnjHMAiO9h0v_ObXiXlAXwNdgyueURd-4R2J0rd0Yzfj1YHQxyIo&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=cv5TDQ2B2pqIx4aCUK9VAQ&oh=00_AfjRVD1Efoi-hujhIllJl-mgf8OFrDyD58vqbBTkxfbzPQ&oe=69140981",
+        "username": "lepineapartments",
+        "timestamp": "2025-11-05T20:26:41+0000",
+        "caption": "A morning of insight, connection, and inspired living at our Fall Rightsizing Brunch. Guests joined us for a thoughtful conversation with industry experts:\n\nLarry Mohr, COO of Engel & Volkers Ottawa, discussed Smart Downsizing: Understanding Market Trends & Maximizing Your Equity\nMartha Tobin, Founder of Declutter4Good on Declutter with Joy: Letting Go Without Losing Your Mind\nAaron Dobby, Leasing Agent at Lépine Apartments, shares exclusive insight into our newest community, Carré Saint Louis\n\nAttendees enjoyed a beautifully catered brunch from Grenfell Catering, followed by a custom flower bar to create an elegant bouquet to take home with them.\n\nThank you to everyone who attended!\n\n#Apartments #ApartmentLiving #RightsizingBrunch #Kanata #KanataApartments #ApartmentRentals",
+        "permalink": "https://www.instagram.com/p/DQsCpLRk2qP/"
+      },
+      {
+        "id": "17970056387810211",
+        "media_type": "CAROUSEL_ALBUM",
+        "media_url": "https://scontent.cdninstagram.com/v/t39.30808-6/576010833_795104696848576_4617234743616494529_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=1-7&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=NqEWAr85QpgQ7kNvwE2Q1ng&_nc_oc=Adk0pY3phJWHIbQRY_GWBv7kXO_ACIPC1V6TCk9dltG1v_ZIVqCz8blEdBLfU_WaTpg&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=cv5TDQ2B2pqIx4aCUK9VAQ&oh=00_AfisV7zqu819JwGwVa6-NWPljqc1OORPiDnIqb_tZ4vfXg&oe=69141082",
+        "username": "lepineapartments",
+        "timestamp": "2025-11-03T17:13:54+0000",
+        "caption": "At Johanne’s Gardens in Carleton Place, every detail has been crafted to create a sense of calm and connection. Spacious, open-concept layouts are paired with warm, natural light and refined finishes that are both elegant and inviting. \n\nThoughtful planning ensures every space has a purpose, from cozy corners for quiet moments to bright, airy rooms made for gathering. Here, modern living is effortless, stylish, and deeply comfortable, a true reflection of what home should feel like.\n\n#JohannesGardens #CarletonPlace #ApartmentLiving #CarletonPlaceApartments",
+        "permalink": "https://www.instagram.com/p/DQmi_ZOEn24/"
+      },
+      {
+        "id": "18077928488150546",
+        "media_type": "IMAGE",
+        "media_url": "https://scontent.cdninstagram.com/v/t39.30808-6/574398595_792277813797931_1698001757492740846_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=1-7&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=HyBJjOPOe8oQ7kNvwHYbfKR&_nc_oc=Adl96MrmXGIp6_8awz34FMmCBjaEWT-kfUcCwQRX4aYs__fEYRmEJUsqeAQYZ-dxlik&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=cv5TDQ2B2pqIx4aCUK9VAQ&oh=00_AfhN7QN4KJpfuOq1-KnAoxZyiWVnZhSYbtS6ppyE-6UlUg&oe=6913F000",
+        "username": "lepineapartments",
+        "timestamp": "2025-10-31T14:00:42+0000",
+        "caption": "Step into Autumn in Kanata, bringing vibrant streets, cool breezes, and the promise of cozy nights ahead. Our thoughtfully designed apartments offer the perfect balance of comfort, style, and community, a place where you can relax, connect, and truly feel at home. Whether you’re sipping your morning coffee on the balcony or exploring the nearby parks and trails, Kanata living makes every moment feel effortlessly enjoyable.\n\n#Apartments #ApartmentLiving #Autumn #Kanata #KanataApartments #ApartmentRentals #Ottawa",
+        "permalink": "https://www.instagram.com/p/DQeefsGDeuG/"
+      },
+      {
+        "id": "17989066424890784",
+        "media_type": "CAROUSEL_ALBUM",
+        "media_url": "https://scontent.cdninstagram.com/v/t51.82787-15/571829408_17962804793996330_3502700625945389922_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=1-7&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=wMIlEECnBbwQ7kNvwHzR_tW&_nc_oc=AdnpnmLM443huEXSsRVcWK2TQoV-tdqMG0Gy5WF2YtL5joHCH-wCY_cOXGWZUuBKvdE&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=cv5TDQ2B2pqIx4aCUK9VAQ&oh=00_AfjFIgZ6Xq5QIAQyiyxNUfPL31zES0E1wHU9UJMJ-fNI8A&oe=6913EA49",
+        "username": "lepineapartments",
+        "timestamp": "2025-10-27T14:00:08+0000",
+        "caption": "Johanne’s Gardens is Now Open!\n\nA heartfelt thank you to everyone who joined us for the ribbon-cutting ceremony celebrating the opening of Johanne’s Gardens, our newest Lépine Apartments community in Carleton Place.\n\nThe event was marked by a special ribbon-cutting led by President and Master Builder France Lépine, followed by light refreshments and guided tours of the new residences. We were thrilled to welcome members of the community as well as our business partners. Your support made this milestone even more meaningful.\n\nWant to learn more about Lépine Apartments in Carleton Place? \nEmail us at leasing@lepineapartments.com\nOr call 1-888-453-7463\n\n#JohannesGardens #CarletonPlace #RibbonCutting #WeBuildCommunity #ApartmentLiving #CarletonPlaceApartments",
+        "permalink": "https://www.instagram.com/p/DQULQMYAH-y/"
+      },
+      {
+        "id": "18169211836374287",
+        "media_type": "CAROUSEL_ALBUM",
+        "media_url": "https://scontent.cdninstagram.com/v/t51.82787-15/567020504_17962287476996330_941161298288104206_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ccb=1-7&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=DNJwWAm_fB8Q7kNvwFaDJU6&_nc_oc=Adn7irksCdQKrNUEtikFpHsplTV97lT6mWyd7ixXPChlBaq4AvAgXSAkE89qzZVNhR0&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=cv5TDQ2B2pqIx4aCUK9VAQ&oh=00_AfiF0sWo2sXjrs2FUtJjGaWDRhKgYsXPCVdjBhm79T7kQg&oe=6913F0C4",
+        "username": "lepineapartments",
+        "timestamp": "2025-10-22T13:56:54+0000",
+        "caption": "Golden fall foliage framed the perfect backdrop for an exclusive evening at 503 Luxe.\n\nOur 503 Luxe preview event offered an exclusive first look at the penthouse model suite at Saint Emilion, setting the tone for what residents can expect at Carré Saint Louis, Kanata’s most anticipated new address, opening Spring 2026.\n\nGuests experienced a preview of the thoughtfully designed interiors, premium finishes, and elevated details that define the Carré Saint Louis lifestyle. The evening featured curated cocktails, light bites, and sweeping terrace views, all in a relaxed and elegant atmosphere.\n\nIt was a pleasure to connect with future residents and community members, and to share our vision for a new standard of luxury in the heart of Kanata.\n\nThank you to everyone who joined us and made the evening so memorable.\n\n#Apartments #ApartmentLiving #PreviewEvent #Kanata #KanataApartments #ApartmentRentals",
+        "permalink": "https://www.instagram.com/p/DQHS6DhgF63/"
+      },
+      {
+        "id": "18081270157997266",
+        "media_type": "CAROUSEL_ALBUM",
+        "media_url": "https://scontent.cdninstagram.com/v/t39.30808-6/561254333_777734835252229_3013905074575760519_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=1-7&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=3zrqGHXbRWYQ7kNvwFl3Uig&_nc_oc=Adkquybkl-k_-EBf5W_3fWQ7rNQ-U6hygsX90dIRbw_KUrOJBpc5vzvLZ3d5pqHiAG0&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=cv5TDQ2B2pqIx4aCUK9VAQ&oh=00_AfgOlyIqXO1KqYAY_fIl1n0eRHZ_dmX38FzVoSam3Ot4XA&oe=6914012A",
+        "username": "lepineapartments",
+        "timestamp": "2025-10-20T13:42:36+0000",
+        "caption": "Rent vs Own? \n\nIncreasingly, working professionals in Ottawa are choosing to rent, and it’s not just about affordability. It’s about freedom, flexibility, and lifestyle. Swipe to learn more about how the Lépine Lifestyle could be the right fit for you. \n\nConnect with us! Email leasing@lepineapartments.com or call 1-888-453-7463 \n\n#ApartmentRentals #RentVsOwn #LepineApartments #ApartmentRentals #OttawaApartments #LiveItUpAtLepine",
+        "permalink": "https://www.instagram.com/p/DQCHrkpjg-9/"
+      },
+      {
+        "id": "17882154360392600",
+        "media_type": "IMAGE",
+        "media_url": "https://scontent.cdninstagram.com/v/t39.30808-6/565350948_779290778429968_6324898707897674436_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=1-7&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=lq8UUWXlwv8Q7kNvwHQyNR2&_nc_oc=AdnZ-F_OKzGhggKzTni-bU0q2QYSnNyY4p-cadlVxki_yigPSCDircAVPpebTsp5pJc&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=cv5TDQ2B2pqIx4aCUK9VAQ&oh=00_AfjLb1PB4hOp5ZC8x4uV2Hi9PoWIh2BsHC326aiAk0K1JQ&oe=69141A36",
+        "username": "lepineapartments",
+        "timestamp": "2025-10-16T14:00:37+0000",
+        "caption": "Welcome back, Drake! We're so glad to see you back on home ice tonight. The entire Lépine team is behind you and the rest of the team as you take the ice. \n\nWishing you a strong, successful season ahead! \n\n#OttawaSenators #Senators #DrakeBatherson #OttawaApartments #ApartmentRentals @drakebatherson9",
+        "permalink": "https://www.instagram.com/p/DP32j_ciLgy/"
+      },
+      {
+        "id": "18044996573408872",
+        "media_type": "CAROUSEL_ALBUM",
+        "media_url": "https://scontent.cdninstagram.com/v/t39.30808-6/560631910_777730211919358_7334286484420709084_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=1-7&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=0E9c5hSx_M0Q7kNvwHYx89R&_nc_oc=Adn_Zy57Z2a7xUR4B9rWVHYNPFQR41FrhwnqpYp9iiRsIGuAS6h1silX0a6Rb_u5-nU&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=cv5TDQ2B2pqIx4aCUK9VAQ&oh=00_Afil5aQ6phi21gD0MSAXEDENvQykqE4Snng5X7RCx26Gfw&oe=69140DC4",
+        "username": "lepineapartments",
+        "timestamp": "2025-10-15T14:00:57+0000",
+        "caption": "A heartfelt tribute at the Ottawa Senators Home Opener, where the crowd at Canadian Tire Centre honoured Émile Benoit Joseph Lépine, President France Lépine’s son, who sadly passed away last spring. Senators Alumni, Chris Phillips, presented France with a custom “Émile” jersey, along with Émile’s favourite jersey, beautifully displayed in a commemorative frame. The Lépine family also wore special Senators jerseys bearing “Émile” and “00”, a heartfelt nod to his birth year and enduring connection to the team. Émile, a devoted Sens fan, will always be part of our team. \n\nThank you to all who joined us in recognizing Émile Lépine’s memory alongside the Lépine family.",
+        "permalink": "https://www.instagram.com/p/DP1RzoejN31/"
+      },
+      {
+        "id": "18063753176420912",
+        "media_type": "CAROUSEL_ALBUM",
+        "media_url": "https://scontent.cdninstagram.com/v/t39.30808-6/558179727_773943362298043_5810904571462254874_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=1-7&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=_SoS1ZfGUcEQ7kNvwFE6VdT&_nc_oc=AdmY2fAmxzF9bz6B90PmuJ96EkD5mg-k89msfUsfmHSeg8isaTG4jTIOjCMyUK77phk&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=cv5TDQ2B2pqIx4aCUK9VAQ&oh=00_AfjDUOlMDl_2Gc03wxadZTIroU5Kz6VuNHvN2zKwbu_0bw&oe=69140BA0",
+        "username": "lepineapartments",
+        "timestamp": "2025-10-13T14:02:00+0000",
+        "caption": "From hosting gatherings to focused workouts, every space at Johanne’s Gardens reflects a sense of style and purpose. Featuring red retro-inspired appliances by Premiere Appliances in the party room and complementary red fitness equipment, these amenities mix thoughtful design and functionality. \n\nCome see for yourself! Email leasing@lepineapartments.com or call 1-888-453-7463 to book a tour.\n\n#JohannesGardens #CarletonPlace #WeBuildCommunity #ApartmentLiving #CarletonPlaceApartments",
+        "permalink": "https://www.instagram.com/p/DPwIVigkX3r/"
+      },
+      {
+        "id": "18070182545236851",
+        "media_type": "IMAGE",
+        "media_url": "https://scontent.cdninstagram.com/v/t39.30808-6/558503650_773982092294170_7347995390447436172_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ccb=1-7&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=JmL8gfsD8y4Q7kNvwGVa74C&_nc_oc=Adm_yQSYBJXAq8ciMJezCQPvTobl4b_5VgtW1kbYLKHgdPVf33XtAL45E5XGHQmh-i4&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=cv5TDQ2B2pqIx4aCUK9VAQ&oh=00_Afjg76yNyX_SkJklxbn1h8FJvUqUH9UngSJDmK0Z-FqAYA&oe=69141098",
+        "username": "lepineapartments",
+        "timestamp": "2025-10-10T14:16:02+0000",
+        "caption": "You're invited to the official ribbon-cutting ceremony for Johanne's Gardens, our newest apartment community in Carleton Place!\n\nWhen: Saturday, October 18, 2025, from 1:30 PM to 3:00 PM \nWhere: 277 Coleman Street, Carleton Place\n\nEnjoy light refreshments, guided tours, and the chance to connect with community leaders, local businesses, and future neighbours.\n\nClick the link in our bio to RSVP and help us celebrate this exciting new chapter for Carleton Place.\n\n#JohannesGardens #CarletonPlace #RibbonCutting #WeBuildCommunity #ApartmentLiving #CarletonPlaceApartments",
+        "permalink": "https://www.instagram.com/p/DPobjtfk8R6/"
+      },
+      {
+        "id": "18081295135818199",
+        "media_type": "CAROUSEL_ALBUM",
+        "media_url": "https://scontent.cdninstagram.com/v/t39.30808-6/558710260_770499772642402_3127541794218133906_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=1-7&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=BxNnskjEYQ8Q7kNvwE-T923&_nc_oc=AdkHcqcETUeJqwwfDVvLi90KtDkBgjfYyyas-CNaVjaXg0a_DDNL1d1A8c_FMBCv9vE&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=cv5TDQ2B2pqIx4aCUK9VAQ&oh=00_Afit3FqamhL9RIhAuFdIROLwVPs8P4Z9jGrXpE5cSCU6-A&oe=6913FE9E",
+        "username": "lepineapartments",
+        "timestamp": "2025-10-08T14:01:16+0000",
+        "caption": "We’re thrilled to announce that the final concrete pour at Johanne’s Gardens is now complete! This crucial rooftop pour secures the elevator shaft for the final building, marking a significant milestone in the overall construction process.\n\nWith Building D already open and welcoming residents, and the remaining two buildings progressing steadily, the vision of Johanne’s Gardens is quickly becoming a reality. Each milestone brings us closer to delivering a vibrant, modern, and connected community that future residents will be proud to call home.\n\nStay tuned as we continue to transform this development from blueprint to neighbourhood, one exciting milestone at a time!\n\n#CarletonPlace #CarletonPlaceApartments #Apartments #WeBuildCommunity #ApartmentConstruction #Construction",
+        "permalink": "https://www.instagram.com/p/DPjQRy-gVr4/"
+      },
+      {
+        "id": "18020707367584612",
+        "media_type": "CAROUSEL_ALBUM",
+        "media_url": "https://scontent.cdninstagram.com/v/t39.30808-6/557631925_770482679310778_7023186525138489510_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ccb=1-7&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=1WQZKcWJGKIQ7kNvwF8CTtS&_nc_oc=AdlNmrHpXvAMZHHv_0Yvxj6V91mYS3kh2crolPhoHhUHcrJtMxJOK9ujZLa6jjpMGVo&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=cv5TDQ2B2pqIx4aCUK9VAQ&oh=00_AfgZMMlsTjfFL9w_-qO3ykYramf5-e80DqTjDfrD7vJvag&oe=6914035F",
+        "username": "lepineapartments",
+        "timestamp": "2025-10-06T18:36:09+0000",
+        "caption": "Fall colours and summer heat, an October plot twist we didn’t see coming! With temperatures hitting 30°C this week, The Normand terrace has become the perfect spot to enjoy an iced pumpkin spice latte from our friends at Morning Owl while taking in the views of the golden leaves. \n\nEven with the warmth, the fall colours are starting to show, creating the perfect backdrop for a peaceful coffee break!\n\n#Apartments #ApartmentLiving #Fall #Autumn #FallFoliage #Kanata #KanataApartments",
+        "permalink": "https://www.instagram.com/p/DPemJXGk3pg/"
+      },
+      {
+        "id": "18021779234769009",
+        "media_type": "IMAGE",
+        "media_url": "https://scontent.cdninstagram.com/v/t39.30808-6/557626555_764101293282250_254024193826720458_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=1-7&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=84k66poimpAQ7kNvwEBP3qX&_nc_oc=AdkPqN9s1Yx3w0j1MmGbmBIDalL7rW-VyHMQ91MVDDXo2kZaPce30dsRJzTyFkshfa4&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=cv5TDQ2B2pqIx4aCUK9VAQ&oh=00_Afj482p2oc9Cv3rhcHrabaWXTVi1nG4a4Fis0JPEbsgF7A&oe=69140B27",
+        "username": "lepineapartments",
+        "timestamp": "2025-10-03T14:00:17+0000",
+        "caption": "You're Invited to 503 Luxe: An Exclusive Preview Event\n\nStep inside our beautifully designed penthouse model suite at Saint Emilion and get a first look at what life will feel like at Carré Saint Louis: Kanata’s most anticipated new address, opening Spring 2026.\n\nThe space is a preview of the elevated design, modern finishes, and refined living you can expect at Carré Saint Louis. \n\nEnjoy an evening of cocktails, light bites, and terrace views, while touring the model suite and connecting with our leasing team in an elegant, relaxed atmosphere.\n\nWhere: Saint Emilion – Penthouse Model Suite 503\n1136 Maritime Way, Kanata\nWhen: Thursday, October 16 | 5:30 PM – 7:30 PM\n\nSpots are limited. Click the link in our bio to RSVP today\n\nDiscover the future of luxury living in Kanata.\n\n#CarreSaintLouis #Kanata #ApartmentRentals #KanataRentals #503Luxe #KanataApartments",
+        "permalink": "https://www.instagram.com/p/DPWYMNtjKHQ/"
+      },
+      {
+        "id": "18079975721292364",
+        "media_type": "VIDEO",
+        "media_url": "https://scontent.cdninstagram.com/o1/v/t2/f2/m86/AQOSvwB3iqt2F_toaok875GFgyBEJfvFxouWhiPgXDrdLoyHNuiQgA6scr7Lq9jid2OShl4IMMhKzNNabVUvioCSZfs-5yd1h0d9Cv0.mp4?_nc_cat=106&_nc_sid=5e9851&_nc_ht=scontent.cdninstagram.com&_nc_ohc=XS6linoYj_EQ7kNvwH3vizA&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTY3NzUxNjk1OTU4MzUyMywiYXNzZXRfYWdlX2RheXMiOjM3LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTYsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=4cd5f72535333c00&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8wRTRFQTA0MzgyNjlGNDY5MDY2NkJBODFDNkUyRDg4NF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYOnBhc3N0aHJvdWdoX2V2ZXJzdG9yZS9HTVBQTENFLUQxUE84VThFQUh5WFdNRlJSZU1lYnFfRUFBQUYVAgLIARIAKAAYABsCiAd1c2Vfb2lsATEScHJvZ3Jlc3NpdmVfcmVjaXBlATEVAAAmxrTYp6vs-gUVAigCQzMsF0AwmZmZmZmaGBJkYXNoX2Jhc2VsaW5lXzFfdjERAHX-B2XmnQEA&_nc_gid=cv5TDQ2B2pqIx4aCUK9VAQ&edm=AM6HXa8EAAAA&_nc_zt=28&oh=00_AfjgVf-d0SdnrvrBCsq8pXNGF_nSpLq_SqOFcvPsbOnDtw&oe=69100F1F",
+        "username": "lepineapartments",
+        "timestamp": "2025-10-01T14:01:07+0000",
+        "caption": "With each milestone, Carré Saint Louis reveals more of its character. The graceful arches and refined façade, inspired by European design, reflect a commitment to craftsmanship and timeless beauty. As construction advances, these architectural details will create a residence where modern living blends with classic charm. \n\nNow pre-leasing, click the link in our bio to learn more! \n\n#CarreSaintLouis #Kanata #ApartmentConstruction #ApartmentRentals #KanataRentals #ConstructionUpdate",
+        "permalink": "https://www.instagram.com/reel/DPROqZQjJNM/",
+        "thumbnail_url": "https://scontent.cdninstagram.com/v/t51.82787-15/559113604_17960117129996330_4242110447286070378_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ccb=1-7&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=qNQYkXs9OMAQ7kNvwHwC581&_nc_oc=AdlztyYjPX54Wn5VRz_BuVN2fbgRP-6fVAnoddG7yWTkE_5DostjgEXwCdMaMsRTPE8&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&edm=AM6HXa8EAAAA&_nc_gid=cv5TDQ2B2pqIx4aCUK9VAQ&oh=00_AfgdmfAvVQzNn_b5YBgB7pKxyIFY8FuTh0GUQGG6NByDzA&oe=6913ED13"
+      }
+    ]
+  },
+  "__N_SSG": true
+}

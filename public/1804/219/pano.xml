@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour appversion="6.1.10" start="node8" apprev="18007">
+  <panorama id="node8" hideabout="1">
+    <input tilevrurl="images/R0011521_edit_ovr.jpg" prev5url="images/R0011521_edit_o_preview_5.jpg" tilescale="1.008396" prev1url="images/R0011521_edit_o_preview_1.jpg" tile4url="images/R0011521_edit_o_4.jpg" prev0url="images/R0011521_edit_o_preview_0.jpg" tile1url="images/R0011521_edit_o_1.jpg" tile0url="images/R0011521_edit_o_0.jpg" tile5url="images/R0011521_edit_o_5.jpg" prev4url="images/R0011521_edit_o_preview_4.jpg" levelingpitch="0" tilesize="1191" levelingroll="0" prev3url="images/R0011521_edit_o_preview_3.jpg" tile2url="images/R0011521_edit_o_2.jpg" tile3url="images/R0011521_edit_o_3.jpg" prev2url="images/R0011521_edit_o_preview_2.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="9">
+      <start tilt="0" pan="10" projection="4" fov="80"/>
+      <flyin tilt="0" pan="10" projection="4" fov="80"/>
+      <min tilt="-70" pan="0" fov="80"/>
+      <max fovfisheye="360" tilt="60" fovstereographic="270" pan="360" scaletofit="1" fov="80"/>
+    </view>
+    <userdata latitude="45.316433" heading="9" description="" info="" tags="216" altitude="67.10" author="" source="" comment="" title="" longitude="-75.899644" nodeid="node8" customnodeid="" datetime="2/3/2023 2:36 PM" copyright="">
+      <mapcoords x_floorplan_percent="59.1286" y_floorplan_percent="89.3333" y="-1.84021" x="0.782776" mapid="FloorPlan01"/>
+    </userdata>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label textalpha="1" textcolor="0x000000" bordercolor="0x000000" height="20" backgroundcolor="0xffffff" backgroundalpha="1" background="1" border="1" enabled="1" width="180" borderalpha="1" borderradius="1" wordwrap="1"/>
+      <polystyle mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" borderalpha="1"/>
+      <hotspot tilt="0" pan="-90.3146" url="{node9}" skinid="ht_node" description="" distance="8.02028" id="Point01" title="" target="$fwd"/>
+      <hotspot tilt="0" pan="90.132" url="{node10}" skinid="ht_node" description="" distance="11.6775" id="Point02" title="" target="$fwd"/>
+      <hotspot tilt="0" pan="8.27478" url="{node16}" skinid="ht_node" description="" distance="3.66943" id="Point03" title="" target="$fwd"/>
+    </hotspots>
+    <media/>
+    <transition zoomout="0" type="crossdissolve" blendcolor="0x000000" zoomfov="20" softedge="0" zoomspeed="2" zoomoutpause="1" enabled="1" zoomafterinfov="90" zoomafteroutfov="20" blendtime="1" zoomin="0"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control contextprojections="0" lockedkeyboard="0" lockedkeyboardzoom="0" rubberband="0" lockedmouse="0" dblclickfullscreen="0" contextfullscreen="1" speedwheel="1" sensitivity="10" simulatemass="1" invertcontrol="1" lockedwheel="0" invertwheel="0" hideabout="1"/>
+  </panorama>
+  <panorama id="node16" hideabout="1">
+    <input tilevrurl="images/R0011529_edit_ovr.jpg" prev5url="images/R0011529_edit_o_preview_5.jpg" tilescale="1.008396" prev1url="images/R0011529_edit_o_preview_1.jpg" tile4url="images/R0011529_edit_o_4.jpg" prev0url="images/R0011529_edit_o_preview_0.jpg" tile1url="images/R0011529_edit_o_1.jpg" tile0url="images/R0011529_edit_o_0.jpg" tile5url="images/R0011529_edit_o_5.jpg" prev4url="images/R0011529_edit_o_preview_4.jpg" levelingpitch="0" tilesize="1191" levelingroll="0" prev3url="images/R0011529_edit_o_preview_3.jpg" tile2url="images/R0011529_edit_o_2.jpg" tile3url="images/R0011529_edit_o_3.jpg" prev2url="images/R0011529_edit_o_preview_2.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="161">
+      <start tilt="0" pan="135" projection="4" fov="80"/>
+      <flyin tilt="0" pan="135" projection="4" fov="80"/>
+      <min tilt="-70" pan="0" fov="80"/>
+      <max fovfisheye="360" tilt="60" fovstereographic="270" pan="360" scaletofit="1" fov="80"/>
+    </view>
+    <userdata latitude="45.316400" heading="161" description="" info="" tags="216" altitude="67.00" author="" source="" comment="" title="" longitude="-75.899644" nodeid="node16" customnodeid="" datetime="2/3/2023 2:40 PM" copyright="">
+      <mapcoords x_floorplan_percent="59.751" y_floorplan_percent="57.7333" y="-1.18927" x="0.791016" mapid="FloorPlan01"/>
+    </userdata>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label textalpha="1" textcolor="0x000000" bordercolor="0x000000" height="20" backgroundcolor="0xffffff" backgroundalpha="1" background="1" border="1" enabled="1" width="180" borderalpha="1" borderradius="1" wordwrap="1"/>
+      <polystyle mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" borderalpha="1"/>
+      <hotspot tilt="0" pan="340.275" url="{node8}" skinid="ht_node" description="" distance="3.66943" id="Point01" title="" target="$fwd"/>
+      <hotspot tilt="0" pan="267.479" url="{node12}" skinid="ht_node" description="" distance="14.2127" id="Point02" title="" target="$fwd"/>
+      <hotspot tilt="0" pan="160.133" url="{node13}" skinid="ht_node" description="" distance="8.63733" id="Point04" title="" target="$fwd"/>
+    </hotspots>
+    <media/>
+    <transition zoomout="0" type="crossdissolve" blendcolor="0x000000" zoomfov="20" softedge="0" zoomspeed="2" zoomoutpause="1" enabled="1" zoomafterinfov="90" zoomafteroutfov="20" blendtime="1" zoomin="0"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control contextprojections="0" lockedkeyboard="0" lockedkeyboardzoom="0" rubberband="0" lockedmouse="0" dblclickfullscreen="0" contextfullscreen="1" speedwheel="1" sensitivity="10" simulatemass="1" invertcontrol="1" lockedwheel="0" invertwheel="0" hideabout="1"/>
+  </panorama>
+  <panorama id="node13" hideabout="1">
+    <input tilevrurl="images/R0011526_edit_ovr.jpg" prev5url="images/R0011526_edit_o_preview_5.jpg" tilescale="1.008396" prev1url="images/R0011526_edit_o_preview_1.jpg" tile4url="images/R0011526_edit_o_4.jpg" prev0url="images/R0011526_edit_o_preview_0.jpg" tile1url="images/R0011526_edit_o_1.jpg" tile0url="images/R0011526_edit_o_0.jpg" tile5url="images/R0011526_edit_o_5.jpg" prev4url="images/R0011526_edit_o_preview_4.jpg" levelingpitch="0" tilesize="1191" levelingroll="0" prev3url="images/R0011526_edit_o_preview_3.jpg" tile2url="images/R0011526_edit_o_2.jpg" tile3url="images/R0011526_edit_o_3.jpg" prev2url="images/R0011526_edit_o_preview_2.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="-75">
+      <start tilt="0" pan="135" projection="4" fov="80"/>
+      <flyin tilt="0" pan="135" projection="4" fov="80"/>
+      <min tilt="-70" pan="0" fov="80"/>
+      <max fovfisheye="360" tilt="60" fovstereographic="270" pan="360" scaletofit="1" fov="80"/>
+    </view>
+    <userdata latitude="45.316433" heading="-75" description="" info="" tags="216" altitude="67.10" author="" source="" comment="" title="" longitude="-75.899744" nodeid="node13" customnodeid="" datetime="2/3/2023 2:39 PM" copyright="">
+      <mapcoords x_floorplan_percent="56.639" y_floorplan_percent="41.0667" y="-0.845947" x="0.749817" mapid="FloorPlan01"/>
+    </userdata>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label textalpha="1" textcolor="0x000000" bordercolor="0x000000" height="20" backgroundcolor="0xffffff" backgroundalpha="1" background="1" border="1" enabled="1" width="180" borderalpha="1" borderradius="1" wordwrap="1"/>
+      <polystyle mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" borderalpha="1"/>
+      <hotspot tilt="0" pan="-232.517" url="{node16}" skinid="ht_node" description="" distance="8.63733" id="Point01" title="" target="$fwd"/>
+      <hotspot tilt="0" pan="-349.96" url="{node15}" skinid="ht_node" description="" distance="5.93602" id="Point02" title="" target="$fwd"/>
+      <hotspot tilt="0" pan="-98.6238" url="{node14}" skinid="ht_node" description="" distance="2.68639" id="Point03" title="" target="$fwd"/>
+    </hotspots>
+    <media/>
+    <transition zoomout="0" type="crossdissolve" blendcolor="0x000000" zoomfov="20" softedge="0" zoomspeed="2" zoomoutpause="1" enabled="1" zoomafterinfov="90" zoomafteroutfov="20" blendtime="1" zoomin="0"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control contextprojections="0" lockedkeyboard="0" lockedkeyboardzoom="0" rubberband="0" lockedmouse="0" dblclickfullscreen="0" contextfullscreen="1" speedwheel="1" sensitivity="10" simulatemass="1" invertcontrol="1" lockedwheel="0" invertwheel="0" hideabout="1"/>
+  </panorama>
+  <panorama id="node14" hideabout="1">
+    <input tilevrurl="images/R0011527_edit_ovr.jpg" prev5url="images/R0011527_edit_o_preview_5.jpg" tilescale="1.008396" prev1url="images/R0011527_edit_o_preview_1.jpg" tile4url="images/R0011527_edit_o_4.jpg" prev0url="images/R0011527_edit_o_preview_0.jpg" tile1url="images/R0011527_edit_o_1.jpg" tile0url="images/R0011527_edit_o_0.jpg" tile5url="images/R0011527_edit_o_5.jpg" prev4url="images/R0011527_edit_o_preview_4.jpg" levelingpitch="0" tilesize="1191" levelingroll="0" prev3url="images/R0011527_edit_o_preview_3.jpg" tile2url="images/R0011527_edit_o_2.jpg" tile3url="images/R0011527_edit_o_3.jpg" prev2url="images/R0011527_edit_o_preview_2.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="-55">
+      <start tilt="0" pan="180" projection="4" fov="80"/>
+      <flyin tilt="0" pan="180" projection="4" fov="80"/>
+      <min tilt="-70" pan="0" fov="80"/>
+      <max fovfisheye="360" tilt="60" fovstereographic="270" pan="360" scaletofit="1" fov="80"/>
+    </view>
+    <userdata latitude="45.316447" heading="-55" description="" info="" tags="216" altitude="67.00" author="" source="" comment="" title="" longitude="-75.899772" nodeid="node14" customnodeid="" datetime="2/3/2023 2:39 PM" copyright="">
+      <mapcoords x_floorplan_percent="62.6556" y_floorplan_percent="18.6667" y="-0.384521" x="0.829468" mapid="FloorPlan01"/>
+    </userdata>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label textalpha="1" textcolor="0x000000" bordercolor="0x000000" height="20" backgroundcolor="0xffffff" backgroundalpha="1" background="1" border="1" enabled="1" width="180" borderalpha="1" borderradius="1" wordwrap="1"/>
+      <polystyle mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" borderalpha="1"/>
+      <hotspot tilt="0.1" pan="125.426" url="{node13}" skinid="ht_node" description="" distance="2.68639" id="Point01" title="" target="$fwd"/>
+    </hotspots>
+    <media/>
+    <transition zoomout="0" type="crossdissolve" blendcolor="0x000000" zoomfov="20" softedge="0" zoomspeed="2" zoomoutpause="1" enabled="1" zoomafterinfov="90" zoomafteroutfov="20" blendtime="1" zoomin="0"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control contextprojections="0" lockedkeyboard="0" lockedkeyboardzoom="0" rubberband="0" lockedmouse="0" dblclickfullscreen="0" contextfullscreen="1" speedwheel="1" sensitivity="10" simulatemass="1" invertcontrol="1" lockedwheel="0" invertwheel="0" hideabout="1"/>
+  </panorama>
+  <panorama id="node15" hideabout="1">
+    <input tilevrurl="images/R0011528_edit_ovr.jpg" prev5url="images/R0011528_edit_o_preview_5.jpg" tilescale="1.008396" prev1url="images/R0011528_edit_o_preview_1.jpg" tile4url="images/R0011528_edit_o_4.jpg" prev0url="images/R0011528_edit_o_preview_0.jpg" tile1url="images/R0011528_edit_o_1.jpg" tile0url="images/R0011528_edit_o_0.jpg" tile5url="images/R0011528_edit_o_5.jpg" prev4url="images/R0011528_edit_o_preview_4.jpg" levelingpitch="0" tilesize="1191" levelingroll="0" prev3url="images/R0011528_edit_o_preview_3.jpg" tile2url="images/R0011528_edit_o_2.jpg" tile3url="images/R0011528_edit_o_3.jpg" prev2url="images/R0011528_edit_o_preview_2.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="-38">
+      <start tilt="0" pan="10" projection="4" fov="80"/>
+      <flyin tilt="0" pan="10" projection="4" fov="80"/>
+      <min tilt="-70" pan="0" fov="80"/>
+      <max fovfisheye="360" tilt="60" fovstereographic="270" pan="360" scaletofit="1" fov="80"/>
+    </view>
+    <userdata latitude="45.316386" heading="-38" description="" info="" tags="216" altitude="67.00" author="" source="" comment="" title="" longitude="-75.899708" nodeid="node15" customnodeid="" datetime="2/3/2023 2:40 PM" copyright="">
+      <mapcoords x_floorplan_percent="37.5519" y_floorplan_percent="35.2" y="-0.725098" x="0.497131" mapid="FloorPlan01"/>
+    </userdata>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label textalpha="1" textcolor="0x000000" bordercolor="0x000000" height="20" backgroundcolor="0xffffff" backgroundalpha="1" background="1" border="1" enabled="1" width="180" borderalpha="1" borderradius="1" wordwrap="1"/>
+      <polystyle mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" borderalpha="1"/>
+      <hotspot tilt="0" pan="-175.86" url="{node13}" skinid="ht_node" description="" distance="5.93602" id="Point01" title="" target="$fwd"/>
+    </hotspots>
+    <media/>
+    <transition zoomout="0" type="crossdissolve" blendcolor="0x000000" zoomfov="20" softedge="0" zoomspeed="2" zoomoutpause="1" enabled="1" zoomafterinfov="90" zoomafteroutfov="20" blendtime="1" zoomin="0"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control contextprojections="0" lockedkeyboard="0" lockedkeyboardzoom="0" rubberband="0" lockedmouse="0" dblclickfullscreen="0" contextfullscreen="1" speedwheel="1" sensitivity="10" simulatemass="1" invertcontrol="1" lockedwheel="0" invertwheel="0" hideabout="1"/>
+  </panorama>
+  <panorama id="node10" hideabout="1">
+    <input tilevrurl="images/R0011523_edit_ovr.jpg" prev5url="images/R0011523_edit_o_preview_5.jpg" tilescale="1.008396" prev1url="images/R0011523_edit_o_preview_1.jpg" tile4url="images/R0011523_edit_o_4.jpg" prev0url="images/R0011523_edit_o_preview_0.jpg" tile1url="images/R0011523_edit_o_1.jpg" tile0url="images/R0011523_edit_o_0.jpg" tile5url="images/R0011523_edit_o_5.jpg" prev4url="images/R0011523_edit_o_preview_4.jpg" levelingpitch="0" tilesize="1191" levelingroll="0" prev3url="images/R0011523_edit_o_preview_3.jpg" tile2url="images/R0011523_edit_o_2.jpg" tile3url="images/R0011523_edit_o_3.jpg" prev2url="images/R0011523_edit_o_preview_2.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="5">
+      <start tilt="0" pan="60" projection="4" fov="80"/>
+      <flyin tilt="0" pan="60" projection="4" fov="80"/>
+      <min tilt="-70" pan="0" fov="80"/>
+      <max fovfisheye="360" tilt="60" fovstereographic="270" pan="360" scaletofit="1" fov="80"/>
+    </view>
+    <userdata latitude="45.316511" heading="5" description="" info="" tags="216" altitude="67.10" author="" source="" comment="" title="" longitude="-75.899744" nodeid="node10" customnodeid="" datetime="2/3/2023 2:37 PM" copyright="">
+      <mapcoords x_floorplan_percent="32.7801" y_floorplan_percent="81.4667" y="-1.67816" x="0.43396" mapid="FloorPlan01"/>
+    </userdata>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label textalpha="1" textcolor="0x000000" bordercolor="0x000000" height="20" backgroundcolor="0xffffff" backgroundalpha="1" background="1" border="1" enabled="1" width="180" borderalpha="1" borderradius="1" wordwrap="1"/>
+      <polystyle mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" borderalpha="1"/>
+      <hotspot tilt="0" pan="-109.918" url="{node8}" skinid="ht_node" description="" distance="11.6775" id="Point01" title="" target="$fwd"/>
+    </hotspots>
+    <media/>
+    <transition zoomout="0" type="crossdissolve" blendcolor="0x000000" zoomfov="20" softedge="0" zoomspeed="2" zoomoutpause="1" enabled="1" zoomafterinfov="90" zoomafteroutfov="20" blendtime="1" zoomin="0"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control contextprojections="0" lockedkeyboard="0" lockedkeyboardzoom="0" rubberband="0" lockedmouse="0" dblclickfullscreen="0" contextfullscreen="1" speedwheel="1" sensitivity="10" simulatemass="1" invertcontrol="1" lockedwheel="0" invertwheel="0" hideabout="1"/>
+  </panorama>
+  <panorama id="node12" hideabout="1">
+    <input tilevrurl="images/R0011525_edit_ovr.jpg" prev5url="images/R0011525_edit_o_preview_5.jpg" tilescale="1.008396" prev1url="images/R0011525_edit_o_preview_1.jpg" tile4url="images/R0011525_edit_o_4.jpg" prev0url="images/R0011525_edit_o_preview_0.jpg" tile1url="images/R0011525_edit_o_1.jpg" tile0url="images/R0011525_edit_o_0.jpg" tile5url="images/R0011525_edit_o_5.jpg" prev4url="images/R0011525_edit_o_preview_4.jpg" levelingpitch="0" tilesize="1191" levelingroll="0" prev3url="images/R0011525_edit_o_preview_3.jpg" tile2url="images/R0011525_edit_o_2.jpg" tile3url="images/R0011525_edit_o_3.jpg" prev2url="images/R0011525_edit_o_preview_2.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="-115">
+      <start tilt="0" pan="120" projection="4" fov="80"/>
+      <flyin tilt="0" pan="120" projection="4" fov="80"/>
+      <min tilt="-70" pan="0" fov="80"/>
+      <max fovfisheye="360" tilt="60" fovstereographic="270" pan="360" scaletofit="1" fov="80"/>
+    </view>
+    <userdata latitude="45.316478" heading="-115" description="" info="" tags="216" altitude="67.00" author="" source="" comment="" title="" longitude="-75.899788" nodeid="node12" customnodeid="" datetime="2/3/2023 2:38 PM" copyright="">
+      <mapcoords x_floorplan_percent="22.4066" y_floorplan_percent="58.5333" y="-1.20575" x="0.296631" mapid="FloorPlan01"/>
+    </userdata>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label textalpha="1" textcolor="0x000000" bordercolor="0x000000" height="20" backgroundcolor="0xffffff" backgroundalpha="1" background="1" border="1" enabled="1" width="180" borderalpha="1" borderradius="1" wordwrap="1"/>
+      <polystyle mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" borderalpha="1"/>
+      <hotspot tilt="0" pan="-215.381" url="{node16}" skinid="ht_node" description="" distance="14.2127" id="Point01" title="" target="$fwd"/>
+    </hotspots>
+    <media/>
+    <transition zoomout="0" type="crossdissolve" blendcolor="0x000000" zoomfov="20" softedge="0" zoomspeed="2" zoomoutpause="1" enabled="1" zoomafterinfov="90" zoomafteroutfov="20" blendtime="1" zoomin="0"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control contextprojections="0" lockedkeyboard="0" lockedkeyboardzoom="0" rubberband="0" lockedmouse="0" dblclickfullscreen="0" contextfullscreen="1" speedwheel="1" sensitivity="10" simulatemass="1" invertcontrol="1" lockedwheel="0" invertwheel="0" hideabout="1"/>
+  </panorama>
+  <panorama id="node9" hideabout="1">
+    <input tilevrurl="images/R0011522_edit_ovr.jpg" prev5url="images/R0011522_edit_o_preview_5.jpg" tilescale="1.008396" prev1url="images/R0011522_edit_o_preview_1.jpg" tile4url="images/R0011522_edit_o_4.jpg" prev0url="images/R0011522_edit_o_preview_0.jpg" tile1url="images/R0011522_edit_o_1.jpg" tile0url="images/R0011522_edit_o_0.jpg" tile5url="images/R0011522_edit_o_5.jpg" prev4url="images/R0011522_edit_o_preview_4.jpg" levelingpitch="0" tilesize="1191" levelingroll="0" prev3url="images/R0011522_edit_o_preview_3.jpg" tile2url="images/R0011522_edit_o_2.jpg" tile3url="images/R0011522_edit_o_3.jpg" prev2url="images/R0011522_edit_o_preview_2.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="-55">
+      <start tilt="0" pan="-145" projection="4" fov="80"/>
+      <flyin tilt="0" pan="-145" projection="4" fov="80"/>
+      <min tilt="-70" pan="0" fov="80"/>
+      <max fovfisheye="360" tilt="60" fovstereographic="270" pan="360" scaletofit="1" fov="80"/>
+    </view>
+    <userdata latitude="45.316487" heading="-55" description="" info="" tags="216" altitude="67.10" author="" source="" comment="" title="" longitude="-75.899712" nodeid="node9" customnodeid="" datetime="2/3/2023 2:37 PM" copyright="">
+      <mapcoords x_floorplan_percent="81.3278" y_floorplan_percent="88.6667" y="-1.82648" x="1.07666" mapid="FloorPlan01"/>
+    </userdata>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label textalpha="1" textcolor="0x000000" bordercolor="0x000000" height="20" backgroundcolor="0xffffff" backgroundalpha="1" background="1" border="1" enabled="1" width="180" borderalpha="1" borderradius="1" wordwrap="1"/>
+      <polystyle mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" borderalpha="1"/>
+      <hotspot tilt="0" pan="37.6754" url="{node8}" skinid="ht_node" description="" distance="8.02028" id="Point01" title="" target="$fwd"/>
+    </hotspots>
+    <media/>
+    <transition zoomout="0" type="crossdissolve" blendcolor="0x000000" zoomfov="20" softedge="0" zoomspeed="2" zoomoutpause="1" enabled="1" zoomafterinfov="90" zoomafteroutfov="20" blendtime="1" zoomin="0"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control contextprojections="0" lockedkeyboard="0" lockedkeyboardzoom="0" rubberband="0" lockedmouse="0" dblclickfullscreen="0" contextfullscreen="1" speedwheel="1" sensitivity="10" simulatemass="1" invertcontrol="1" lockedwheel="0" invertwheel="0" hideabout="1"/>
+  </panorama>
+  <masternode>
+    <userdata latitude="" heading="0" description="" info="" tags="" author="" source="" comment="" title="" longitude="" nodeid="master" customnodeid="" datetime="" copyright=""/>
+  </masternode>
+  <map type="file" transparent="0" zoomlevels="1" height="750" floorplannorth="0" bgcolor="rgba(255, 255, 255, 1)" id="FloorPlan01" title="" width="482" tileformat="jpg"/>
+</tour>

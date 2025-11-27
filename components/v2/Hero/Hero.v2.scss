@@ -1,0 +1,172 @@
+.heroV2 {
+    // height: 990px;
+    height: 1360px;
+    max-height: 100vh;
+    background: $c-white;
+    position: relative;
+
+    @include breakpointDown($bp-tablet-md) {
+        height: unset;
+    }
+
+    &[data-hero="property"] {
+        background: #1C87A1;
+        color: $c-white;
+        // height: 1360px;
+    }
+
+    &[data-hero="cornerImage"] {
+        height: 750px;
+        // display: none;
+    }
+
+    &__cornerImage {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        user-select: none;
+        z-index: 3;
+        // padding-bottom: 100px;
+        border-radius: 0 0 0 50px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        &[data-contentsize="50"] {
+            width: calc(50% - 50px);
+        }
+
+        &[data-contentsize="33"] {
+            width: calc(33% - 50px);
+        }
+
+        &[data-contentsize="25"] {
+            width: calc(25% - 50px);
+        }
+    }
+
+    &__arrow {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        z-index: 2;
+
+        &.reverse {
+            transform: scaleX(-1)
+        }
+
+        img {
+            height: 100%;
+            width: 100%;
+            object-position: top left;
+            object-fit: contain;
+        }
+    }
+
+    &__video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        z-index: 3;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    &__image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        z-index: 2;
+        object-fit: cover;
+        object-position: center;
+        user-select: none;
+        opacity: 0.5;
+    }
+
+    .contentWrapperV2 {
+        height: 100%;
+        z-index: 4;
+        position: relative;
+    }
+
+    &__content {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        column-gap: 50px;
+        row-gap: 50px;
+
+        @include breakpointDown($bp-tablet-md) {
+            flex-flow: column nowrap;
+        }
+
+        &.reverse {
+            flex-flow: row-reverse;
+
+            @include breakpointDown($bp-tablet-md) {
+                flex-flow: column-reverse nowrap;
+            }
+        }
+
+        &--col {
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            row-gap: 25px;
+
+            &[data-colsize="25"] {
+                flex: 1 0 23%;
+            }
+
+            &[data-colsize="33"] {
+                flex: 1 0 30%;
+            }
+
+            &[data-colsize="50"] {
+                flex: 1 0 48%;
+            }
+
+            &[data-colsize="75"] {
+                flex: 1 0 73%;
+            }
+
+            @include breakpointDown($bp-tablet-md) {
+                height: unset;
+            }
+
+            &[data-col="copy"] {
+                align-items: flex-start;
+            }
+        }
+
+        &--image {
+            height: 100%;
+            width: 100%;
+            object-fit: contain;
+            object-position: center;
+            user-select: none;
+        }
+    }
+
+    h1 {
+        max-width: 100%;
+        text-transform: capitalize;
+    }
+}

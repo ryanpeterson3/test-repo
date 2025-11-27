@@ -1,0 +1,48 @@
+.propertyOrbit {
+    margin-top: -100px;
+    z-index: 2;
+    position: relative;
+
+    @include breakpointDown($bp-mobile-lg) {
+        margin: 0;
+    }
+
+    .contentWrapper{
+        padding: 0;
+        height: 650px;
+
+        @include breakpointDown($bp-tablet-sm) {
+            height: 546px;
+        }
+    
+        @include breakpointDown($bp-mobile-lg) {
+            height: 258px;
+        }
+    }
+
+    video {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+.propertyOrbitV3 {
+    height: 650px;
+
+    @include breakpointDown($bp-tablet-sm) {
+        height: 546px;
+    }
+
+    @include breakpointDown($bp-mobile-lg) {
+        height: 258px;
+    }
+
+    video {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+}

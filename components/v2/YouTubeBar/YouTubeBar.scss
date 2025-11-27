@@ -1,0 +1,194 @@
+.youtubeBar {
+    @include breakpointUp($bp-tablet-lg) {
+        background: linear-gradient(90deg,#fff 50%,$c-herosRidgeRed 0 50%);
+
+    }
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    box-shadow: $box-shadow;
+
+    overflow: hidden;
+
+
+    &__swiper {
+        overflow: hidden;
+    }
+
+    .contentWrapper {
+        height: 100%;
+        @include breakpointDown($bp-tablet-lg) {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+
+    &__cta {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        column-gap: 10px;
+        row-gap: 10px;
+        cursor: pointer;
+
+        
+        @include breakpointDown($bp-tablet-sm) {
+            text-align: left;
+        }
+
+        p {
+            text-decoration: underline;
+            margin: 0;
+            flex: unset !important;
+            width: unset !important;
+        }
+    }
+
+    
+    .overlay {
+        &L {
+            position: absolute;
+            width: 10%;
+            top: 0;
+            left: 0;  
+            height: 100%;
+            z-index: 2;
+            background: linear-gradient(270deg, #C8102E00 0%, #C8102E80 50%, #C8102E 75%);
+      
+        }
+        &R {
+            position: absolute;
+            width: 10%;
+            top: 0;
+            right: 0;    
+            height: 100%;
+            z-index: 2;
+            background: linear-gradient(90deg, #C8102E00 0%, #C8102E80 50%, #C8102E 100%);
+
+            @include breakpointDown($bp-tablet-lg) {
+                background: linear-gradient(90deg, #C8102E00 0%, #C8102E80 50%, #C8102E 75%);
+            }
+    
+        }
+
+    }
+
+    &__content {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+
+        @include breakpointDown($bp-tablet-lg) {
+            flex-flow: column nowrap;
+        }
+
+        &--item {
+            @include breakpointDown($bp-mobile-lg) {
+                flex: 1 0 48%;
+                justify-content: center;
+
+                &:nth-child(2) {
+                    @include breakpointDown($bp-mobile-lg) {
+                        p {
+                            width: unset !important;
+                        }
+                    }
+                }
+            }
+
+
+        }
+    }
+
+    &__copy {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        row-gap: 10px;
+        column-gap: 50px;
+        width: auto;
+        padding: 25px 25px 25px 0;
+
+        @include breakpointDown($bp-tablet-lg) {
+            flex-flow: row nowrap;
+            padding: 0 10px;
+        }
+
+        @include breakpointDown($bp-mobile-lg) {
+            column-gap: 25px;
+        }
+
+        p {
+            text-align: center;
+            color: $c-herosRidgeRed !important;
+            width: 65%;
+
+            @include breakpointDown($bp-mobile-lg) {
+                width: unset;
+                text-align: left;
+            }
+        }
+    }
+
+    &__items {
+        background: $c-herosRidgeRed;
+        color: $c-white;
+
+        position: relative;
+
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        column-gap: 25px;
+
+        flex: 1 0 73%;
+
+        padding: 10px 0;
+        overflow: hidden;
+
+        @include breakpointUp($bp-tablet-lg) {
+            padding-left: 25px;
+        }
+    }
+
+    &__item {
+        // flex: 1 0 23%;
+        height: 180px;
+        width: 320px;
+        background: transparent;
+
+        img {
+            height: 190px;
+            width: 330px;
+            object-fit: contain;
+            object-position: center;
+        }
+
+        &--overlay {
+            position: absolute;
+            user-select: none;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 3;
+            background: transparent;
+
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                height: 50px;
+                width: 50px;
+                cursor: pointer;
+            }
+    
+        }
+    }
+}
